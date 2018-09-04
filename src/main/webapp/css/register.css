@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*头部样式*/
+#HeadPartArea {
+    width: 90%;
+    height: 190px;
+    margin: 0 auto;
+    border-bottom: darkgrey 1px solid;
+}
+
+#search-and-logo {
+    width: 100%;
+    height: 150px;
+}
+
+.threebox {
+    float: left;
+    height: 150px;
+    width: 33%;
+
+}
+
+#searchbox {
+    border: lightgrey 1px solid;
+    width: 300px;
+    height: 35px;
+    margin: 100px 20px;
+}
+
+#search {
+    outline: none;
+    margin-left: 5px;
+    display: inline-block;
+    border-style: none;
+    height: 35px;
+    width: 260px;
+}
+
+#searchbutton {
+    outline: none;
+    border-style: none;
+    background-image: url("../images/search-icon.png");
+    background-size: 35px 35px;
+    float: right;
+    height: 35px;
+    width: 35px;;
+}
+
+#logobox {
+    margin: 5% auto;
+    width: 50%;
+    height: 70%;
+}
+
+#logopic {
+    height: 100%;
+    width: 100%;
+}
+
+#right-nav-box {
+
+    width: 200px;
+    height: 35px;
+    margin: 50px auto;
+    float: right;
+}
+
+.inner-right-box {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 100%;
+
+}
+
+.inner-right-box a {
+    width: 50%;
+    height: 100%;
+    line-height: 35px;
+}
+
+.naviconbox {
+    display: inline-block;
+    height: 100%;
+    width: 35px;
+}
+
+.rightnav-font {
+    float: right;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+#inner-nav {
+    margin: 0 auto;
+    width: 50%;
+    height: 38px;
+}
+
+#inner-nav ul li {
+    width: 16.66%;
+    height: 35px;
+    float: left;
+}
+
+.nav-navs {
+    display: inline-block;
+    margin: 0 auto;
+    line-height: 38px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.onmousenav {
+    line-height: 38px;
+    background-color: black;
+    display: inline;
+    float: left;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+/*注册区域样式*/
+#all {
+    margin: 0 auto;
+    width: 90%;
+    height: 800px;
+    border-bottom: darkgrey 1px solid;
+}
+
+
+
+#home-rigister {
+    width: 95%;
+    height: 30px;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#rigister-description{
+    width: 100%;
+    height: 500px;
+
+}
+
+#rigister-area {
+    display: inline-block;
+    border-right: 1px solid black;
+    width: 49%;
+    height: 500px;
+}
+
+#right-description{
+
+    display: inline-block;
+    float: right;
+    width: 49%;
+    height: 100%;
+
+}
+#description{
+    margin: 50px auto;
+    height: 400px;
+    width: 80%;
+
+}
+#description ul li{color:black ;
+    margin-top: 20px;
+}
+
+.right-icon{
+    width: 18px;
+    height: 18px;
+}
+
+
+#create-new-account {
+    margin: 0 auto;
+    width: 90%;
+    font-style: italic;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.options {
+    margin: 0px auto;
+    display: inline-block;
+
+    height: 35px;
+    width: 100%;
+}
+
+.inner-options {
+    display: inline-block;
+    height: 100%;
+    margin-left: 120px;
+}
+
+.options label {
+    margin-left: 40px;
+    display: inline-block;
+    height: 100%;
+    width: 100px;
+
+}
+
+.inputs {
+    border: 1px black solid;
+    margin-left: 10px;
+    width: 260px;
+    height: 35px;
+}
+
+#yanzhengma-box {
+    border: 1px black solid;
+
+    display: inline-block;
+    margin-left: 10px;
+    width: 260px;
+    height: 35px;
+}
+
+#yanzhengma {
+    display: inline-block;
+    border-style: none;
+    width: 150px;
+    height: 35px;
+}
+
+#get-yanzhengma {
+    float: right;
+    display: inline-block;
+    width: 110px;
+    height: 35px;
+}
+
+.tips {
+    width: 300px;
+    height: 35px;
+    line-height: 100%;
+    float: right;
+}
+
+.tips1 {
+    text-align: center;
+    line-height: 20px;
+    color: red;
+    width: 100%;
+    height: 30px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+#check-box {
+    margin: 0 auto;
+    width: 50%;
+    height: 50px;
+}
+
+#submit-box {
+    margin: 0 auto;
+    width: 20%;
+    height: 30px;
+}
+
+#submit-button {
+    width: 100%;
+    height: 100%;
+}
+
+/*饶镇镇*/
+.bottom {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.bottom table {
+    width: 60%;
+    height: 350px;
+    position: relative;
+    left: 30px;
+    float: left;
+}
+
+.bottom .bottom_right {
+    width: 30%;
+    float: right;
+    position: relative;
+    top: 35px;
+}
+
+table td {
+    position: relative;
+    top: 50px;
+}
+
+table td .td1 {
+    font-weight: 500;
+    font-size: 10px;
+    color: black;
+}
+
+.bottom a {
+    font-size: 13px;
+}
+
+.span1 {
+    position: relative;
+    top: -50px;
+    left: 200px;
+}
+
+.bottom_right img {
+    position: relative;
+    top: 100px;
+    left: -170px;
+}
+
+.bottom_right > input {
+
+}
+
+.flog {
+    width: 100%;
+    height: 120px;
+    margin-top: 150px;
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    background-color: rgba(175, 175, 175, 0.63);
+}
+
+.hr {
+    position: relative;
+    top: 15px;
+}
+
+.hr2 {
+    position: relative;
+    top: 105px;
+}
+
+.hr2 {
+    position: relative;
+    top: -70px;
+}
+
+.hr3 {
+    width: 100%;
+}
+
+.bottom_foot {
+    width: 100%;
+    height: 200px;
+}
+
+.bottom_foot img {
+    position: relative;
+    top: 50px;
+    left: 700px;
+    margin-bottom: 50px;
+}
+
+.bottom_foot p {
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+
+.error-tip {
+    margin-left: 10px;
+    font-size: 18px;
+    color: red;
+    /*background: rgba(177, 177, 186, 0.58);*/
+    margin-bottom: -18px;
+}
+
+.error-tip span {
+    margin-left: 150px;
+
+}
+
+.bot_left {
+    position: relative;
+    top: 50px;
+    left: 10px;
+    color: rgba(177, 177, 186, 0.58);
+
+}
+
+.bot_left .bot_right {
+    position: relative;
+    float: right;
+    right: 10px;
+    margin-left: 25px;
+}
+
+/*饶镇镇*/
+
+
+
+
+
+

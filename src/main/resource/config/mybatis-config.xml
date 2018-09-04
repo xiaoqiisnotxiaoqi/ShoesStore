@@ -52,7 +52,7 @@
 
     <!--导入mapper文件 -->
     <mappers>
-        <mapper resource="com/chixing/mapper/CartMapper.xml"/>
+        <mapper resource="com\chixing\mapper\CartMapper.xml"/>
         <mapper resource="com/chixing/mapper/CategoryMapper.xml"/>
         <mapper resource="com/chixing/mapper/CustLoginMapper.xml"/>
         <mapper resource="com/chixing/mapper/CustomerMapper.xml"/>

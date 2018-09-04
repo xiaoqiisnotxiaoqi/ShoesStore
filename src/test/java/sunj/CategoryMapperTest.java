@@ -1,7 +1,9 @@
 package sunj;
 
 import Util.MybatisUtil;
+import com.chixing.mapper.CategoryMapper;
 import com.chixing.pojo.Category;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 
@@ -36,7 +38,9 @@ public class CategoryMapperTest {
     @Test
     public void selectAll() {
         SqlSession sqlSession = MybatisUtil.getSession();
-        List<Category> categoryList =  sqlSession.selectList("com.store.mapper.CategoryMapper.selectAll");
+        CategoryMapper categoryMapper = sqlSession.getMapper(CategoryMapper.class);
+        List<Category> categoryList = categoryMapper.selectAll();
+        MybatisUtil.closeSession();
         System.out.println(categoryList);
     }
 }

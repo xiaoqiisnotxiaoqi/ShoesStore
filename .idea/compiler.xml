@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="maver_test" />
+        <module name="ShoesStore" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="maver_test" target="1.7" />
+      <module name="ShoesStore" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

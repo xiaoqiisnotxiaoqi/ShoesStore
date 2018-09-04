@@ -1,12 +1,9 @@
-//头部
 function mouseon(navli) {
     navli.className="onmousenav" ;
 }
 function mouseout(navli) {
     navli.className=""
 }
-
-
 //判断是不是手机号
 function isPoneAvailable(poneInput) {
     var myreg = /^[1][3,4,5,7,8][0-9]{9}$/;

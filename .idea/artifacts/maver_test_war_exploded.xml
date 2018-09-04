@@ -4,7 +4,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="maver_test" />
+          <element id="module-output" name="ShoesStore" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.3" />
@@ -20,7 +20,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/maver_test/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="maver_test/web/Web" />
+      <element id="javaee-facet-resources" facet="ShoesStore/web/Web" />
     </root>
   </artifact>
 </component>

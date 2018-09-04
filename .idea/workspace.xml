@@ -7,77 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f33fc442-b0fe-4990-ab60-f0d708e2bf5a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/maver_test_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/maver_test_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_6_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_caches_mybatis_ehcache_1_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/maver_test.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Util/MybatisUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CartMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CategoryMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CustLoginMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CustomerMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/MyOrderMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/OrderDetailMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ReceiveAddressMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesColorMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesDetailMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesImgMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesSizeMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/Cart.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/Category.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/CustLogin.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/Customer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/MyOrder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/OrderDetail.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/OrderDetailKey.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ReceiveAddress.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/Shoes.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ShoesColor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ShoesDetail.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ShoesImg.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ShoesSize.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CartMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CategoryMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustLoginMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/MyOrderMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/OrderDetailMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ReceiveAddressMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesColorMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesDetailMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesImgMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesSizeMapper.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/config/dbconn.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/config/mybatis-config.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/log4j.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/qinjb/tese1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/rzz/custLogintest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/rzz/customerMappertest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/sunj/CategoryMapperTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/sunj/ShoesMapperTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/sunj/tese1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/zhoul/tese1.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Util/MybatisUtil.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CartMapper.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CartMapper.xml" />
@@ -179,6 +109,8 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/sunj/ShoesMapperTest.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/sunj/tese1.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/zhoul/tese1.class" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/maver_test.iml" afterPath="$PROJECT_DIR$/ShoesStore.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -543,6 +475,18 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="maver_test" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -688,6 +632,14 @@
       <workItem from="1536061273719" duration="690000" />
       <workItem from="1536061979042" duration="1591000" />
     </task>
+    <task id="LOCAL-00001" summary="qinjb 9/4 21:21">
+      <created>1536067334143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536067334144</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -720,13 +672,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20894000" />
+    <option name="totallyTimeSpent" value="21229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17504051" sideWeight="0.40998486" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13290113" sideWeight="0.40998486" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68557537" sideWeight="0.49394855" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -742,7 +694,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17504051" sideWeight="0.5900151" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13290113" sideWeight="0.5900151" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.565625" sideWeight="0.54978037" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -786,6 +738,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="qinjb 9/4 21:21" />
+    <option name="LAST_COMMIT_MESSAGE" value="qinjb 9/4 21:21" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -823,6 +779,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -838,6 +795,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
           <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -845,6 +805,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -852,6 +815,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -859,6 +823,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -866,6 +833,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50">
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -873,6 +841,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -880,6 +849,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -887,6 +859,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -904,6 +877,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -911,6 +887,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="71" column="60" lean-forward="false" selection-start-line="71" selection-start-column="60" selection-end-line="71" selection-end-column="60" />
+          <folding>
+            <marker date="1536062958128" expanded="true" signature="690:858" ph="select ss.sh... shoes_detail" />
+            <marker date="1536062958128" expanded="true" signature="970:1096" ph="select from shoes_size" />
+            <marker date="1536062958128" expanded="true" signature="1182:1262" ph="delete from shoes_size... " />
+            <marker date="1536062958128" expanded="true" signature="1345:1523" ph="insert into shoes_size... " />
+            <marker date="1536062958128" expanded="true" signature="2349:2641" ph="update shoes_size... " />
+            <marker date="1536062958128" expanded="true" signature="2736:2907" ph="update shoes_size... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -918,6 +902,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-164">
           <caret line="214" column="62" lean-forward="false" selection-start-line="214" selection-start-column="62" selection-end-line="214" selection-end-column="62" />
+          <folding>
+            <marker date="1536062957588" expanded="true" signature="1578:1787" ph="select shoes... shoes" />
+            <marker date="1536062957588" expanded="true" signature="1916:2165" ph="select shoes... shoes" />
+            <marker date="1536062957588" expanded="true" signature="2298:2542" ph="select shoes... shoes" />
+            <marker date="1536062957588" expanded="true" signature="2673:2894" ph="select shoes... shoes" />
+            <marker date="1536062957588" expanded="true" signature="2997:3277" ph="select shoes... shoes" />
+            <marker date="1536062957588" expanded="true" signature="3414:3489" ph="select shoes... shoes" />
+            <marker date="1536062957588" expanded="true" signature="3611:3733" ph="select from shoes" />
+            <marker date="1536062957588" expanded="true" signature="3823:3889" ph="delete from shoes... " />
+            <marker date="1536062957588" expanded="true" signature="3970:4628" ph="insert into shoes... " />
+            <marker date="1536062957588" expanded="true" signature="7460:8968" ph="update shoes... " />
+            <marker date="1536062957588" expanded="true" signature="9063:9735" ph="update shoes... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -925,6 +922,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-39">
           <caret line="107" column="60" lean-forward="false" selection-start-line="107" selection-start-column="60" selection-end-line="107" selection-end-column="60" />
+          <folding>
+            <marker date="1536062958333" expanded="true" signature="1090:1222" ph="select from shoes_detail" />
+            <marker date="1536062958333" expanded="true" signature="1308:1394" ph="delete from shoes_detail... " />
+            <marker date="1536062958333" expanded="true" signature="1479:1878" ph="insert into shoes_detail... " />
+            <marker date="1536062958333" expanded="true" signature="3385:4121" ph="update shoes_detail... " />
+            <marker date="1536062958333" expanded="true" signature="4218:4624" ph="update shoes_detail... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -932,6 +936,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="74" column="60" lean-forward="false" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
+          <folding>
+            <marker date="1536062957620" expanded="true" signature="732:861" ph="select from shoes_color" />
+            <marker date="1536062957620" expanded="true" signature="978:1237" ph="select color... shoes_color" />
+            <marker date="1536062957620" expanded="true" signature="1324:1407" ph="delete from shoes_color... " />
+            <marker date="1536062957620" expanded="true" signature="1491:1699" ph="insert into shoes_color... " />
+            <marker date="1536062957620" expanded="true" signature="2581:2914" ph="update shoes_color... " />
+            <marker date="1536062957620" expanded="true" signature="3010:3211" ph="update shoes_color... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -939,6 +951,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-35">
           <caret line="152" column="60" lean-forward="false" selection-start-line="152" selection-start-column="60" selection-end-line="152" selection-end-column="60" />
+          <folding>
+            <marker date="1536062957386" expanded="true" signature="1559:1685" ph="select from receive_address" />
+            <marker date="1536062957386" expanded="true" signature="1771:1851" ph="delete from receive_address... " />
+            <marker date="1536062957386" expanded="true" signature="1939:2613" ph="insert into receive_address... " />
+            <marker date="1536062957386" expanded="true" signature="4895:6147" ph="update receive_address... " />
+            <marker date="1536062957386" expanded="true" signature="6247:6928" ph="update receive_address... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -946,6 +965,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="84" column="60" lean-forward="false" selection-start-line="84" selection-start-column="60" selection-end-line="84" selection-end-column="60" />
+          <folding>
+            <marker date="1536062957316" expanded="true" signature="908:1086" ph="select from order_detail" />
+            <marker date="1536062957316" expanded="true" signature="1186:1319" ph="delete from order_detail... " />
+            <marker date="1536062957316" expanded="true" signature="1409:1697" ph="insert into order_detail... " />
+            <marker date="1536062957316" expanded="true" signature="2879:3356" ph="update order_detail... " />
+            <marker date="1536062957316" expanded="true" signature="3453:3753" ph="update order_detail... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -953,6 +979,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-410">
           <caret line="103" column="69" lean-forward="false" selection-start-line="103" selection-start-column="69" selection-end-line="103" selection-end-column="69" />
+          <folding>
+            <marker date="1536062957493" expanded="true" signature="1038:1153" ph="select from my_order" />
+            <marker date="1536062957493" expanded="true" signature="1233:1631" ph="select myord... my_order" />
+            <marker date="1536062957493" expanded="true" signature="1702:2102" ph="select myord... my_order" />
+            <marker date="1536062957493" expanded="true" signature="2182:2548" ph="insert into my_order... " />
+            <marker date="1536062957493" expanded="true" signature="3995:4696" ph="update my_order... " />
+            <marker date="1536062957493" expanded="true" signature="4742:4819" ph="update my_order... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -960,6 +994,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
           <caret line="106" column="60" lean-forward="false" selection-start-line="106" selection-start-column="60" selection-end-line="106" selection-end-column="60" />
+          <folding>
+            <marker date="1536062957952" expanded="true" signature="1010:1127" ph="select from cust_login" />
+            <marker date="1536062957952" expanded="true" signature="1213:1284" ph="delete from cust_login... " />
+            <marker date="1536062957952" expanded="true" signature="1365:1714" ph="insert into cust_login... " />
+            <marker date="1536062957952" expanded="true" signature="3127:3799" ph="update cust_login... " />
+            <marker date="1536062957952" expanded="true" signature="3894:4250" ph="update cust_login... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -967,6 +1008,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
           <caret line="104" column="62" lean-forward="false" selection-start-line="104" selection-start-column="62" selection-end-line="104" selection-end-column="62" />
+          <folding>
+            <marker date="1536062957517" expanded="true" signature="1023:1154" ph="select categ... category" />
+            <marker date="1536062957517" expanded="true" signature="1276:1407" ph="select from category" />
+            <marker date="1536062957517" expanded="true" signature="1497:1572" ph="delete from category... " />
+            <marker date="1536062957517" expanded="true" signature="1656:2031" ph="insert into category... " />
+            <marker date="1536062957517" expanded="true" signature="3698:4484" ph="update category... " />
+            <marker date="1536062957517" expanded="true" signature="4582:4957" ph="update category... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -974,6 +1023,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
           <caret line="100" column="60" lean-forward="false" selection-start-line="100" selection-start-column="60" selection-end-line="100" selection-end-column="60" />
+          <folding>
+            <marker date="1536062958216" expanded="true" signature="913:1022" ph="select from cart" />
+            <marker date="1536062958216" expanded="true" signature="1108:1171" ph="delete from cart... " />
+            <marker date="1536062958216" expanded="true" signature="1211:1337" ph="delete from cart... " />
+            <marker date="1536062958216" expanded="true" signature="1413:1711" ph="insert into cart... " />
+            <marker date="1536062958216" expanded="true" signature="2954:3521" ph="update cart... " />
+            <marker date="1536062958216" expanded="true" signature="3611:3910" ph="update cart... " />
+            <marker date="1536062958216" expanded="true" signature="3955:4107" ph="update cart... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -982,6 +1040,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="74" column="60" lean-forward="false" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
+          <folding>
+            <marker date="1536062957888" expanded="true" signature="735:847" ph="select from shoes_img" />
+            <marker date="1536062957888" expanded="true" signature="933:999" ph="delete from shoes_img... " />
+            <marker date="1536062957888" expanded="true" signature="1081:1279" ph="insert into shoes_img... " />
+            <marker date="1536062957888" expanded="true" signature="2207:2568" ph="update shoes_img... " />
+            <marker date="1536062957888" expanded="true" signature="2662:2860" ph="update shoes_img... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -989,6 +1054,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
           <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -996,6 +1062,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,6 +1070,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,6 +1086,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1025,6 +1096,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1393">
           <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1032,6 +1106,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1039,6 +1116,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-850">
           <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1056,6 +1136,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

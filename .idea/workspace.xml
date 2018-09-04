@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="maver_test:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f33fc442-b0fe-4990-ab60-f0d708e2bf5a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/maver_test_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/maver_test_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_6_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_caches_mybatis_ehcache_1_0_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/maver_test.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Util/MybatisUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CartMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CategoryMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CustLoginMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CustomerMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/MyOrderMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/OrderDetailMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ReceiveAddressMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesColorMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesDetailMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesImgMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesSizeMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/Cart.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/Category.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/CustLogin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/Customer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/MyOrder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/OrderDetail.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/OrderDetailKey.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ReceiveAddress.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/Shoes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ShoesColor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ShoesDetail.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ShoesImg.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ShoesSize.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CartMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CategoryMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustLoginMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/MyOrderMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/OrderDetailMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ReceiveAddressMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesColorMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesDetailMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesImgMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesSizeMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/config/dbconn.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/config/mybatis-config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/qinjb/tese1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/rzz/custLogintest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/rzz/customerMappertest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/sunj/CategoryMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/sunj/ShoesMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/sunj/tese1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/zhoul/tese1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Util/MybatisUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CartMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CartMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CategoryMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CategoryMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CustLoginMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CustLoginMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CustomerMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CustomerMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/MyOrderMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/MyOrderMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/OrderDetailMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/OrderDetailMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ReceiveAddressMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ReceiveAddressMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesColorMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesColorMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesDetailMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesDetailMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesImgMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesImgMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesSizeMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesSizeMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/Cart.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/Category.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/CustLogin.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/Customer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/MyOrder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/OrderDetail.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/OrderDetailKey.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/ReceiveAddress.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/Shoes.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/ShoesColor.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/ShoesDetail.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/ShoesImg.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/ShoesSize.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/config/dbconn.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/config/mybatis-config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test.war" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/META-INF/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/Util/MybatisUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/CartMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/CartMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/CategoryMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/CategoryMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/CustLoginMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/CustLoginMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/CustomerMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/CustomerMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/MyOrderMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/MyOrderMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/OrderDetailMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/OrderDetailMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ReceiveAddressMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ReceiveAddressMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesColorMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesColorMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesDetailMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesDetailMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesImgMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesImgMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesSizeMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesSizeMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/Cart.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/Category.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/CustLogin.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/Customer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/MyOrder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/OrderDetail.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/OrderDetailKey.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/ReceiveAddress.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/Shoes.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/ShoesColor.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/ShoesDetail.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/ShoesImg.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/ShoesSize.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/config/dbconn.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/config/mybatis-config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/lib/ehcache-core-2.6.3.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/lib/log4j-1.2.17.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/lib/log4j-api-2.3.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/lib/log4j-core-2.3.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/lib/mybatis-3.4.6.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/lib/mybatis-ehcache-1.0.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/lib/mysql-connector-java-5.1.46.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/lib/slf4j-api-1.7.5.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/qinjb/tese1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/rzz/custLogintest.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/rzz/customerMappertest.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/sunj/CategoryMapperTest.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/sunj/ShoesMapperTest.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/sunj/tese1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/zhoul/tese1.class" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="tese1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/qinjb/tese1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="613">
+              <caret line="69" column="24" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="30" />
+              <folding>
+                <marker date="1536062958188" expanded="true" signature="1228:1341" ph="select from customer" />
+                <marker date="1536062958188" expanded="true" signature="1427:1494" ph="delete from customer... " />
+                <marker date="1536062958188" expanded="true" signature="1576:2052" ph="insert into customer... " />
+                <marker date="1536062958188" expanded="true" signature="3820:4730" ph="update customer... " />
+                <marker date="1536062958188" expanded="true" signature="4824:5307" ph="update customer... " />
+                <marker date="1536062958188" expanded="true" signature="5390:5497" ph="update customer... " />
+                <marker date="1536062958188" expanded="true" signature="5606:5671" ph="select cust_... customer" />
+                <marker date="1536062958188" expanded="true" signature="5757:5821" ph="select cust_... customer" />
+                <marker date="1536062958188" expanded="true" signature="5900:5978" ph="select * fro... customer" />
+                <marker date="1536062958188" expanded="true" signature="6055:6133" ph="select * fro... customer" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com.chixing/123.html" />
+        <option value="$PROJECT_DIR$/src/main/test/as.fxml" />
+        <option value="$PROJECT_DIR$/src/test/qinjb/tese1.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/com.chixing.dao/MyOrderMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Test2.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/Repository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/MyOrderMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/CartMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/CategoryMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/CustLoginMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/CustomerMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/OrderDetailMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/ReceiveAddressMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/ShoesColorMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/ShoesDetailMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/ShoesImgMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/ShoesMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/ShoesSizeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesSizeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesImgMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesDetailMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesColorMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ReceiveAddressMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/OrderDetailMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/MyOrderMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustLoginMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CartMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/test1.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/config/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/qinjb/tese1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rzz/custLogintest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rzz/customerMappertest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sunj/CategoryMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sunj/ShoesMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sunj/tese1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/zhoul/tese1.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/computer/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\computer\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="164" />
+    <option name="y" value="11" />
+    <option name="width" value="1114" />
+    <option name="height" value="722" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.chixing.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea\maver_test\src\test\java" />
+      <recent name="E:\idea\maver_test\src\main\resource\com\chixing\mapper" />
+      <recent name="E:\idea\maver_test\src\main\java\com\chixing\entity" />
+      <recent name="E:\idea\maver_test\src\main\java\com\chixing\dao" />
+      <recent name="E:\idea\maver_test\src\main\resource" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea\maver_test\src\main\resource" />
+      <recent name="E:\idea\maver_test\src\main\resources\com.chixing.dao" />
+      <recent name="E:\idea\maver_test\src\main\resources" />
+      <recent name="E:\idea\maver_test\src" />
+      <recent name="E:\idea\maver_test\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="tese1.testUpdateStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="qinjb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="maver_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="qinjb" />
+      <option name="MAIN_CLASS_NAME" value="qinjb.tese1" />
+      <option name="METHOD_NAME" value="testUpdateStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="maver_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test1" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="test1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="maver_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test1" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.321" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="maver_test:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_maver_test" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64292" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="maver_test:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.test1.test2" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.test1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.tese1.testUpdateStatus" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.tese1.testUpdateStatus" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.test1.test2" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f33fc442-b0fe-4990-ab60-f0d708e2bf5a" name="Default" comment="" />
+      <created>1535938577058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535938577058</updated>
+      <workItem from="1535938580918" duration="10652000" />
+      <workItem from="1535974185719" duration="3648000" />
+      <workItem from="1536023577308" duration="2077000" />
+      <workItem from="1536061273719" duration="690000" />
+      <workItem from="1536061979042" duration="1591000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="tese1_testUpdateStatus - 2018.09.04 at 20h 18m 28s.xml">
+      <configuration name="tese1.testUpdateStatus" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="tese1_testUpdateStatus - 2018.09.04 at 20h 20m 47s.xml">
+      <configuration name="tese1.testUpdateStatus" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test1 - 2018.09.03 at 12h 47m 30s.xml">
+      <configuration name="test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test1_test2 - 2018.09.03 at 11h 25m 39s.xml">
+      <configuration name="test1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test1_test2 - 2018.09.03 at 11h 27m 25s.xml">
+      <configuration name="test1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test1_test2 - 2018.09.03 at 11h 28m 20s.xml">
+      <configuration name="test1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test1_test2 - 2018.09.03 at 11h 29m 19s.xml">
+      <configuration name="test1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test1_test2 - 2018.09.04 at 20h 10m 16s.xml">
+      <configuration name="test1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test1_test2 - 2018.09.04 at 20h 14m 43s.xml">
+      <configuration name="test1.test2" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20894000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17504051" sideWeight="0.40998486" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68557537" sideWeight="0.49394855" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.116504855" sideWeight="0.76626325" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17504051" sideWeight="0.5900151" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.565625" sideWeight="0.54978037" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273906" sideWeight="0.49016643" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11488673" sideWeight="0.2246596" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11488673" sideWeight="0.7753404" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24130106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.49620494" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/config/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="74" lean-forward="false" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.chixing/123.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/test/as.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/test/qinjb/tese1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resource/dbconn.properties" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com.chixing.dao/MyOrderMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/MyOrderDAO.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/pojo/MyOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/entity/CartExample.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/dao/MyBatisBaseDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/dao/Repository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/dao/CartDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/dao/MyOrderDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resource/config/dbconn.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/CartMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/CustLoginMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/CustomerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/MyOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/OrderDetailMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/ReceiveAddressMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesColorMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesDetailMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Util/MybatisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesSizeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="71" column="60" lean-forward="false" selection-start-line="71" selection-start-column="60" selection-end-line="71" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="214" column="62" lean-forward="false" selection-start-line="214" selection-start-column="62" selection-end-line="214" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesDetailMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="107" column="60" lean-forward="false" selection-start-line="107" selection-start-column="60" selection-end-line="107" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesColorMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="74" column="60" lean-forward="false" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ReceiveAddressMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="152" column="60" lean-forward="false" selection-start-line="152" selection-start-column="60" selection-end-line="152" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/OrderDetailMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="84" column="60" lean-forward="false" selection-start-line="84" selection-start-column="60" selection-end-line="84" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/MyOrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-410">
+          <caret line="103" column="69" lean-forward="false" selection-start-line="103" selection-start-column="69" selection-end-line="103" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustLoginMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="106" column="60" lean-forward="false" selection-start-line="106" selection-start-column="60" selection-end-line="106" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="104" column="62" lean-forward="false" selection-start-line="104" selection-start-column="62" selection-end-line="104" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CartMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="100" column="60" lean-forward="false" selection-start-line="100" selection-start-column="60" selection-end-line="100" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesImgMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="74" column="60" lean-forward="false" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesImgMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesSizeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/config/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="60" column="72" lean-forward="false" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rzz/custLogintest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rzz/customerMappertest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1393">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sunj/CategoryMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sunj/ShoesMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sunj/tese1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/zhoul/tese1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/qinjb/tese1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="69" column="24" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="30" />
+          <folding>
+            <marker date="1536062958188" expanded="true" signature="1228:1341" ph="select from customer" />
+            <marker date="1536062958188" expanded="true" signature="1427:1494" ph="delete from customer... " />
+            <marker date="1536062958188" expanded="true" signature="1576:2052" ph="insert into customer... " />
+            <marker date="1536062958188" expanded="true" signature="3820:4730" ph="update customer... " />
+            <marker date="1536062958188" expanded="true" signature="4824:5307" ph="update customer... " />
+            <marker date="1536062958188" expanded="true" signature="5390:5497" ph="update customer... " />
+            <marker date="1536062958188" expanded="true" signature="5606:5671" ph="select cust_... customer" />
+            <marker date="1536062958188" expanded="true" signature="5757:5821" ph="select cust_... customer" />
+            <marker date="1536062958188" expanded="true" signature="5900:5978" ph="select * fro... customer" />
+            <marker date="1536062958188" expanded="true" signature="6055:6133" ph="select * fro... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>maver_test:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>maver_test</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

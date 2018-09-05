@@ -3,6 +3,8 @@ package com.chixing.mapper;
 
 import com.chixing.pojo.ShoesImg;
 
+import java.util.List;
+
 public interface ShoesImgMapper {
     int deleteByPrimaryKey(Integer imgId);
 
@@ -15,4 +17,10 @@ public interface ShoesImgMapper {
     int updateByPrimaryKeySelective(ShoesImg record);
 
     int updateByPrimaryKey(ShoesImg record);
+
+    /**
+     @param shooesId 指定的鞋子ID
+     @return 返回指定鞋子的所有图片
+     */
+    public List<ShoesImg> queryAllImgByShooesId(Integer shooesId);
 }

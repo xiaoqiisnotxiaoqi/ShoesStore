@@ -164,4 +164,25 @@
       cust_id = #{custId,jdbcType=INTEGER}
     where address_id = #{addressId,jdbcType=INTEGER}
   </update>
+
+  <delete id="delete" parameterType="java.util.Map">
+    delete from receive_address
+    where address_id = #{addressId,jdbcType=INTEGER} and cust_id = #{custId,jdbcType=INTEGER}
+  </delete>
+
+  <select id="queryAll" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from receive_address
+    where cust_id = #{custId,jdbcType=INTEGER}
+  </select>
+
+
+
+  <update id="updateDefaultAddress" parameterType="java.util.Map">
+    update receive_address
+    set
+      is_default_address = 0
+    where address_id = #{addressId,jdbcType=INTEGER} and cust_id = #{custId,jdbcType=INTEGER}
+  </update>
 </mapper>

@@ -16,6 +16,14 @@
     from shoes_img
     where img_id = #{imgId,jdbcType=INTEGER}
   </select>
+
+  <select id="queryAllImgByShooesId" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from shoes_img
+    where shoes_id = #{shoesId,jdbcType=INTEGER}
+  </select>
+
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from shoes_img
     where img_id = #{imgId,jdbcType=INTEGER}

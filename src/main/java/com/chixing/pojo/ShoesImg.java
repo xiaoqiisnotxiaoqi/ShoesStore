@@ -17,6 +17,16 @@ public class ShoesImg implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    public ShoesImg() {
+    }
+
+    public ShoesImg(Integer imgId, Integer shoesId, String imgPath, Integer sortNo) {
+        this.imgId = imgId;
+        this.shoesId = shoesId;
+        this.imgPath = imgPath;
+        this.sortNo = sortNo;
+    }
+
     public Integer getImgId() {
         return imgId;
     }

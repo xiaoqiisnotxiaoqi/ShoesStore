@@ -1,6 +1,6 @@
 package rzz;
 
-import Util.MybatisUtil;
+import com.chixing.util.MybatisUtil;
 import com.chixing.mapper.CustLoginMapper;
 import com.chixing.pojo.CustLogin;
 import org.apache.ibatis.session.SqlSession;

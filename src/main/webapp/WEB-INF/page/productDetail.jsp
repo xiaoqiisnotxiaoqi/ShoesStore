@@ -10,10 +10,10 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>商品详情页面</title>
-    <link rel="stylesheet" type="text/css" href="../css/productDetails.css">
-    <script type="text/javascript" src="../js/productDetails.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/productDetails.css">
+    <script type="text/javascript" src="../../js/productDetails.js"></script>
 </head>
-<IFRAME NAME="content_frame" width="100%" height="201px" SRC="top.jsp" ></IFRAME>
+<IFRAME NAME="content_frame" width="100%" height="238px" SRC="top.jsp" ></IFRAME>
 <div class="body">
     <div id="goods-category">
         <a href="#">男子</a>
@@ -25,18 +25,18 @@
         <span>biubiubiu皮鞋</span>
     </div>
     <div id="goods-img">
-        <img src="../imgs/img1.jpg">
-        <a href="#"><img src="../imgs/arrow-left-small.png"></a>
+        <img src="../../images/img1.jpg">
+        <a href="#"><img src="../../images/arrow-left-small.png"></a>
         <div id="carousel-img">
-            <img src="../imgs/img1.jpg">
-            <img src="../imgs/img2.jpg">
-            <img src="../imgs/img3.jpg">
-            <img src="../imgs/img4.jpg">
+            <img src="../../images/img1.jpg">
+            <img src="../../images/img2.jpg">
+            <img src="../../images/img3.jpg">
+            <img src="../../images/img4.jpg">
             <!--<img src="img/img5.jpg">
             <img src="img/img6.jpg">
             <img src="img/img7.jpg">-->
         </div>
-        <a href="#"><img src="../imgs/arrow-left-big.png"></a>
+        <a href="#"><img src="../../images/arrow-left-big.png"></a>
     </div>
     <div id="goods-property">
         <div id="goods-property-message">
@@ -53,11 +53,11 @@
         <div id="goods-property-color">
             <div>
                 <span>黑色[B76046]</span>
-                <img src="../imgs/img1.jpg"/>
+                <img src="../../images/img1.jpg"/>
             </div>
             <div>
                 <span>黑色[B76046]</span>
-                <img src="../imgs/img1.jpg"/>
+                <img src="../../images/img1.jpg"/>
             </div>
         </div>
         <div id="goods-property-size">
@@ -88,22 +88,22 @@
     <div id="maybe-like">
         <p>猜你喜欢</p>
         <div>
-            <img src="../imgs/img1.jpg">
+            <img src="../../images/img1.jpg">
             <a href="#">biubiubiu中短款皮靴</a>
             <p>￥899</p>
         </div>
         <div>
-            <img src="../imgs/img1.jpg">
+            <img src="../../images/img1.jpg">
             <a href="#">biubiubiu中短款皮靴</a>
             <p>￥899</p>
         </div>
         <div>
-            <img src="../imgs/img1.jpg">
+            <img src="../../images/img1.jpg">
             <a href="#">biubiubiu中短款皮靴</a>
             <p>￥899</p>
         </div>
         <div>
-            <img src="../imgs/img1.jpg">
+            <img src="../../images/img1.jpg">
             <a href="#">biubiubiu中短款皮靴</a>
             <p>￥899</p>
         </div>

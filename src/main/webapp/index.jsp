@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/index.css">
     <script src="js/index.js"></script>
 </head>
-<IFRAME NAME="content_frame" width="100%" height="201px" SRC="../jsp/top.jsp" ></IFRAME>
+<IFRAME NAME="content_frame" width="100%" height="238px" SRC="top.jsp" ></IFRAME>
 <div id="centent">
     <div id="main-show">
         <a id="main-left" href="#">
@@ -56,6 +56,6 @@
         </div>
     </div>
 </div>
-<IFRAME NAME="content_button" width="100%" height="1100px" SRC="../jsp/button.jsp" ></IFRAME>
+<IFRAME NAME="content_button" width="100%" height="1100px" SRC="button.jsp" ></IFRAME>
 </body>
 </html>

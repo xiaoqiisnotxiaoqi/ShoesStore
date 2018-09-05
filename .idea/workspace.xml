@@ -2,13 +2,165 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ShoesStore:war" />
+      <artifact name="ShoesStore:Web exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f33fc442-b0fe-4990-ab60-f0d708e2bf5a" name="Default" comment="qinjb 9/5 0:53">
-      <change afterPath="$PROJECT_DIR$/src/main/resource/config/dbconn.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/ui/ButtonUIServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/ui/ProductDetailsUIServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/ui/TopUIServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Util/MybatisUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CartMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CartMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CategoryMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CategoryMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CustLoginMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CustLoginMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CustomerMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CustomerMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/MyOrderMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/MyOrderMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/OrderDetailMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/OrderDetailMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ReceiveAddressMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ReceiveAddressMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesColorMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesColorMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesDetailMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesDetailMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesImgMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesImgMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesSizeMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/ShoesSizeMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/Cart.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/Category.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/CustLogin.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/Customer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/MyOrder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/OrderDetail.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/OrderDetailKey.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/ReceiveAddress.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/Shoes.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/ShoesColor.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/ShoesDetail.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/ShoesImg.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/ShoesSize.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/config/dbconn.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/config/mybatis-config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test.war" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/META-INF/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/Util/MybatisUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/CartMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/CartMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/CategoryMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/CategoryMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/CustLoginMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/CustLoginMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/CustomerMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/CustomerMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/MyOrderMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/MyOrderMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/OrderDetailMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/OrderDetailMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ReceiveAddressMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ReceiveAddressMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesColorMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesColorMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesDetailMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesDetailMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesImgMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesImgMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesSizeMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/mapper/ShoesSizeMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/Cart.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/Category.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/CustLogin.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/Customer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/MyOrder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/OrderDetail.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/OrderDetailKey.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/ReceiveAddress.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/Shoes.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/ShoesColor.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/ShoesDetail.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/ShoesImg.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/com/chixing/pojo/ShoesSize.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/config/dbconn.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/config/mybatis-config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/classes/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/lib/ehcache-core-2.6.3.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/lib/log4j-1.2.17.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/lib/log4j-api-2.3.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/lib/log4j-core-2.3.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/lib/mybatis-3.4.6.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/lib/mybatis-ehcache-1.0.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/lib/mysql-connector-java-5.1.46.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/lib/slf4j-api-1.7.5.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/qinjb/tese1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/rzz/custLogintest.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/rzz/customerMappertest.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/sunj/CategoryMapperTest.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/sunj/ShoesMapperTest.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/sunj/tese1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/zhoul/tese1.class" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_6_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_6_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_8_5_33.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_8_5_33.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_caches_mybatis_ehcache_1_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_caches_mybatis_ehcache_1_0_2.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/MybatisUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/util/MybatisUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/register.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/register.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/1530088490-44294000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/add_F.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/add_F.png" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/add_xxiangji.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/add_xxiangji.png" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/add_企鹅.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/add_企鹅.png" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/arrow-left-big.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/arrow-left-big.png" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/arrow-left-small.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/arrow-left-small.png" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/bottom.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/img1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/img1.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/img2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/img2.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/img3.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/img3.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/img4.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/img4.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/img5.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/img5.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/img6.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/img6.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/img7.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/img7.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/ios_bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/right-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/imgs/timg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/button.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/button.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/productDetail.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/productDetail.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/register.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/top.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/top.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YangTest/TestReceiveAddressMapper.java" afterPath="$PROJECT_DIR$/src/test/java/YangTest/TestReceiveAddressMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YangTest/TestShoesImgMapper.java" afterPath="$PROJECT_DIR$/src/test/java/YangTest/TestShoesImgMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qinjb/tese1.java" afterPath="$PROJECT_DIR$/src/test/java/qinjb/tese1.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rzz/custLogintest.java" afterPath="$PROJECT_DIR$/src/test/java/rzz/custLogintest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rzz/customerMappertest.java" afterPath="$PROJECT_DIR$/src/test/java/rzz/customerMappertest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sunj/CategoryMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/sunj/CategoryMapperTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sunj/ShoesMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/sunj/ShoesMapperTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sunj/tese1.java" afterPath="$PROJECT_DIR$/src/test/java/sunj/tese1.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/zhoul/tese1.java" afterPath="$PROJECT_DIR$/src/test/java/zhoul/tese1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,7 +189,112 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="productDetail.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/productDetail.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="15" column="69" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1450">
+              <caret line="58" column="64" lean-forward="false" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="289" column="17" lean-forward="false" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductDetailsUIServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/ui/ProductDetailsUIServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopUIServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/ui/TopUIServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoesParticulars.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/servlet/ShoesParticulars.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MybatisUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/util/MybatisUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/top.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/register.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="150" column="22" lean-forward="true" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,12 +319,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/Repository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/MyOrderMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/CartMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/CategoryMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/CustLoginMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/CustomerMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/OrderDetailMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/ReceiveAddressMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/ShoesColorMapper.java" />
@@ -100,7 +351,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/button.jsp" />
         <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ReceiveAddress.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ShoesImg.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ReceiveAddressMapper.java" />
@@ -111,8 +361,15 @@
         <option value="$PROJECT_DIR$/src/test/java/YangTest/TestShoesImgMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chixing/servlet/ShoesParticulars.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/top.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/button.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/top.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/util/MybatisUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/register.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/productDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       </list>
     </option>
   </component>
@@ -185,7 +442,17 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -199,17 +466,6 @@
             <path>
               <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -238,52 +494,46 @@
               <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chixing" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,30 +544,30 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ShoesStore" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35114503" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.chixing.dao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\git\git001\ShoesStore\src\main\resource\config" />
-      <recent name="F:\git\git001\ShoesStore\src\test\java" />
-      <recent name="E:\idea\maver_test\src\test\java" />
-      <recent name="E:\idea\maver_test\src\main\resource\com\chixing\mapper" />
-      <recent name="E:\idea\maver_test\src\main\java\com\chixing\entity" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Util" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\idea\maver_test\src\main\resource" />
       <recent name="E:\idea\maver_test\src\main\resources\com.chixing.dao" />
       <recent name="E:\idea\maver_test\src\main\resources" />
       <recent name="E:\idea\maver_test\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea\ShotStore\ShoesStore\src\main\webapp\WEB-INF\page" />
+      <recent name="E:\idea\ShotStore\ShoesStore\src\main\webapp\images" />
+      <recent name="F:\git\git001\ShoesStore\src\main\resource\config" />
+      <recent name="F:\git\git001\ShoesStore\src\test\java" />
+      <recent name="E:\idea\maver_test\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Util" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.chixing.dao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -332,14 +582,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.register.jsp (2)">
+  <component name="RunManager" selected="Tomcat Server.tomcat">
     <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="ShoesMapperTest.queryByCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sunj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ShoesStore" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sunj" />
+      <option name="MAIN_CLASS_NAME" value="sunj.ShoesMapperTest" />
+      <option name="METHOD_NAME" value="queryByCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -349,56 +641,62 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="customerMappertest.isValidEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="rzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ShoesStore" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="rzz" />
+      <option name="MAIN_CLASS_NAME" value="rzz.customerMappertest" />
+      <option name="METHOD_NAME" value="isValidEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
       <patterns />
     </configuration>
     <configuration name="tese1.testCartMapperOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShoesStore" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="zhoul.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <module name="ShoesStore" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="zhoul" />
       <option name="MAIN_CLASS_NAME" value="zhoul.tese1" />
       <option name="METHOD_NAME" value="testCartMapperOne" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="tese1.testUpdateStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maver_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="qinjb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="qinjb" />
-      <option name="MAIN_CLASS_NAME" value="qinjb.tese1" />
-      <option name="METHOD_NAME" value="testUpdateStatus" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
     </configuration>
     <configuration name="tese1.testUpdateStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -409,9 +707,6 @@
         </pattern>
       </extension>
       <module name="ShoesStore" />
-    </configuration>
-    <configuration name="test1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maver_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="qinjb" />
@@ -421,23 +716,36 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="maver_test" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="maver_test" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -450,166 +758,17 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
+      <envs />
       <properties />
       <listeners />
-    </configuration>
-    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.33" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
-      <deployment>
-        <artifact name="ShoesStore:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="index_jsp_ShoesStore_2" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="ShoesStore:war" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="productDetail.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.33" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsp/productDetail.jsp" />
-      <deployment>
-        <artifact name="ShoesStore:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="productDetail_jsp_ShoesStore" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="ShoesStore:war" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="register.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.33" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsp/register.jsp" />
-      <deployment>
-        <artifact name="ShoesStore:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="register_jsp_(1)_ShoesStore" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="ShoesStore:war" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="register.jsp (2)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.33" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsp/register.jsp" />
-      <deployment>
-        <artifact name="ShoesStore:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="register_jsp_(2)_ShoesStore" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="ShoesStore:war" />
-        </option>
-      </method>
     </configuration>
     <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.321" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -628,6 +787,7 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="64292" />
       </RunnerSettings>
@@ -682,61 +842,30 @@
         </option>
       </method>
     </configuration>
-    <configuration name="top.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.33" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsp/top.jsp" />
-      <deployment>
-        <artifact name="ShoesStore:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="top_jsp_ShoesStore" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="ShoesStore:war" />
-        </option>
-      </method>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.tomcat" />
-      <item itemvalue="Tomcat Server.register.jsp (1)" />
-      <item itemvalue="Tomcat Server.top.jsp" />
-      <item itemvalue="Tomcat Server.productDetail.jsp" />
-      <item itemvalue="Tomcat Server.index.jsp" />
-      <item itemvalue="Tomcat Server.register.jsp (2)" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.tese1.testUpdateStatus" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.customerMappertest.isValidEmail" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ShoesMapperTest.queryByCategory" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.tese1.testCartMapperOne" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Tomcat Server.register.jsp (2)" />
-        <item itemvalue="Tomcat Server.index.jsp" />
-        <item itemvalue="Tomcat Server.productDetail.jsp" />
-        <item itemvalue="Tomcat Server.top.jsp" />
-        <item itemvalue="Tomcat Server.register.jsp (1)" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.tese1.testCartMapperOne" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ShoesMapperTest.queryByCategory" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.customerMappertest.isValidEmail" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.tese1.testUpdateStatus" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -816,7 +945,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33805000" />
+    <option name="totallyTimeSpent" value="35117000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -828,40 +957,74 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.7647453" weight="0.29918033" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.30630028" side_tool="true" visible="true" weight="0.3852459" />
-      <window_info anchor="bottom" id="Application Servers" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6936997" weight="0.3852459" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49865952" weight="0.329235" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30093834" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49620494" weight="0.32935154" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14100486" sideWeight="0.38199696" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5089141" sideWeight="0.49394855" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4311183" sideWeight="0.7390318" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13614263" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14100486" sideWeight="0.618003" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24357034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.49620494" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23014587" sideWeight="0.23373677" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5089141" sideWeight="0.49394855" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30307943" sideWeight="0.7435703" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26256078" sideWeight="0.76626325" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24357034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.49620494" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -899,128 +1062,59 @@
     <MESSAGE value="qinjb 9/4 21:21" />
     <MESSAGE value="qinjb 9/5 0:11" />
     <MESSAGE value="qinjb 9/5 0:33" />
-    <MESSAGE value="杨健第二次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="杨健第二次提交" />
+    <MESSAGE value="qinjb 9/5 0:53" />
+    <option name="LAST_COMMIT_MESSAGE" value="qinjb 9/5 0:53" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ReceiveAddressMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="152" column="60" selection-start-line="152" selection-start-column="60" selection-end-line="152" selection-end-column="60" />
-          <caret line="74" column="60" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/OrderDetailMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="84" column="60" selection-start-line="84" selection-start-column="60" selection-end-line="84" selection-end-column="60" />
-          <caret line="84" column="60" selection-start-line="84" selection-start-column="60" selection-end-line="84" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/MyOrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-410">
-          <caret line="103" column="69" selection-start-line="103" selection-start-column="69" selection-end-line="103" selection-end-column="69" />
-          <caret line="103" column="69" selection-start-line="103" selection-start-column="69" selection-end-line="103" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustLoginMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="106" column="60" selection-start-line="106" selection-start-column="60" selection-end-line="106" selection-end-column="60" />
-          <caret line="106" column="60" selection-start-line="106" selection-start-column="60" selection-end-line="106" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="104" column="62" selection-start-line="104" selection-start-column="62" selection-end-line="104" selection-end-column="62" />
-          <caret line="104" column="62" selection-start-line="104" selection-start-column="62" selection-end-line="104" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CartMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="100" column="60" selection-start-line="100" selection-start-column="60" selection-end-line="100" selection-end-column="60" />
-          <caret line="100" column="60" selection-start-line="100" selection-start-column="60" selection-end-line="100" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="74" column="60" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesSizeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesSizeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/rzz/custLogintest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sunj/CategoryMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/rzz/custLogintest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/rzz/customerMappertest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1393">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sunj/ShoesMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-850">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sunj/tese1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
-          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+          <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1028,7 +1122,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="30" />
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1036,35 +1130,36 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2475">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/zhoul/tese1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+          <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/pojo/ReceiveAddress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="69" column="278" selection-start-line="69" selection-start-column="278" selection-end-line="69" selection-end-column="278" />
+          <caret line="69" column="278" lean-forward="false" selection-start-line="69" selection-start-column="278" selection-end-line="69" selection-end-column="278" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="50">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/qinjb/tese1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="69" column="24" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="32" />
+          <caret line="69" column="24" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1072,75 +1167,96 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/rzz/customerMappertest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="64" column="23" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="29" />
+          <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/config/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="60" column="72" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
+          <caret line="60" column="72" lean-forward="false" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="28" />
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="49" />
+        <state relative-caret-position="25">
+          <caret line="1" column="72" lean-forward="false" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
+          <folding>
+            <marker date="1536079854201" expanded="true" signature="1579:1788" ph="select shoes... shoes" />
+            <marker date="1536079854201" expanded="true" signature="1917:2166" ph="select shoes... shoes" />
+            <marker date="1536079854201" expanded="true" signature="2299:2543" ph="select shoes... shoes" />
+            <marker date="1536079854201" expanded="true" signature="2674:2895" ph="select shoes... shoes" />
+            <marker date="1536079854201" expanded="true" signature="2998:3278" ph="select shoes... shoes" />
+            <marker date="1536079854201" expanded="true" signature="3415:3490" ph="select shoes... shoes" />
+            <marker date="1536079854201" expanded="true" signature="3612:3734" ph="select from shoes" />
+            <marker date="1536079854201" expanded="true" signature="3824:3890" ph="delete from shoes... " />
+            <marker date="1536079854201" expanded="true" signature="3971:4629" ph="insert into shoes... " />
+            <marker date="1536079854201" expanded="true" signature="7461:8969" ph="update shoes... " />
+            <marker date="1536079854201" expanded="true" signature="9064:9736" ph="update shoes... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/pojo/ShoesImg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="22" column="85" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
+          <caret line="22" column="85" lean-forward="false" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesImgMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="164">
+          <caret line="74" column="47" lean-forward="false" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
+          <folding>
+            <marker date="1536150540468" expanded="true" signature="735:847" ph="select from shoes_img" />
+            <marker date="1536150540468" expanded="true" signature="963:1078" ph="select from shoes_img" />
+            <marker date="1536150540468" expanded="true" signature="1165:1231" ph="delete from shoes_img... " />
+            <marker date="1536150540468" expanded="true" signature="1313:1511" ph="insert into shoes_img... " />
+            <marker date="1536150540468" expanded="true" signature="2439:2800" ph="update shoes_img... " />
+            <marker date="1536150540468" expanded="true" signature="2894:3092" ph="update shoes_img... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ReceiveAddressMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="186" column="11" selection-start-line="186" selection-start-column="11" selection-end-line="186" selection-end-column="11" />
+        <state relative-caret-position="25">
+          <caret line="1" column="105" lean-forward="false" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="105" />
+          <folding>
+            <marker date="1536150540465" expanded="true" signature="1559:1685" ph="select from receive_address" />
+            <marker date="1536150540465" expanded="true" signature="1771:1851" ph="delete from receive_address... " />
+            <marker date="1536150540465" expanded="true" signature="1939:2613" ph="insert into receive_address... " />
+            <marker date="1536150540465" expanded="true" signature="4895:6147" ph="update receive_address... " />
+            <marker date="1536150540465" expanded="true" signature="6247:6928" ph="update receive_address... " />
+            <marker date="1536150540465" expanded="true" signature="6999:7120" ph="delete from receive_address... " />
+            <marker date="1536150540465" expanded="true" signature="7223:7342" ph="select from receive_address" />
+            <marker date="1536150540465" expanded="true" signature="7429:7582" ph="update receive_address... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sunj/CategoryMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/MybatisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/config/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
-          <caret line="60" column="72" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
+          <caret line="60" column="72" lean-forward="false" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/config/dbconn.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/YangTest/TestShoesImgMapper.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1159,49 +1275,29 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/sunj/ShoesMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+          <caret line="63" column="26" lean-forward="false" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/zhoul/tese1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/119225c1-ed0a-4499-ace3-a91aaa255a8c/console.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3483">
-          <caret line="963" selection-start-line="963" selection-end-line="963" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/servlet/ShoesParticulars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="963" column="0" lean-forward="false" selection-start-line="963" selection-start-column="0" selection-end-line="963" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1843">
-          <caret line="97" column="31" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
+          <caret line="97" column="31" lean-forward="false" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1222,21 +1318,159 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="282" lean-forward="true" selection-start-line="282" selection-end-line="282" />
+          <caret line="282" column="0" lean-forward="true" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/productDetail.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1862">
-          <caret line="98" column="14" lean-forward="true" selection-start-line="112" selection-end-line="112" selection-end-column="86" />
+          <caret line="98" column="14" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/button.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="80" lean-forward="false" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesColorMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="74" column="60" lean-forward="false" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
+          <folding>
+            <marker date="1536062957620" expanded="true" signature="732:861" ph="select from shoes_color" />
+            <marker date="1536062957620" expanded="true" signature="978:1237" ph="select color... shoes_color" />
+            <marker date="1536062957620" expanded="true" signature="1324:1407" ph="delete from shoes_color... " />
+            <marker date="1536062957620" expanded="true" signature="1491:1699" ph="insert into shoes_color... " />
+            <marker date="1536062957620" expanded="true" signature="2581:2914" ph="update shoes_color... " />
+            <marker date="1536062957620" expanded="true" signature="3010:3211" ph="update shoes_color... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/OrderDetailMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="84" column="60" lean-forward="false" selection-start-line="84" selection-start-column="60" selection-end-line="84" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/MyOrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="103" column="69" lean-forward="false" selection-start-line="103" selection-start-column="69" selection-end-line="103" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesDetailMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="107" column="60" lean-forward="false" selection-start-line="107" selection-start-column="60" selection-end-line="107" selection-end-column="60" />
+          <folding>
+            <marker date="1536062958333" expanded="true" signature="1090:1222" ph="select from shoes_detail" />
+            <marker date="1536062958333" expanded="true" signature="1308:1394" ph="delete from shoes_detail... " />
+            <marker date="1536062958333" expanded="true" signature="1479:1878" ph="insert into shoes_detail... " />
+            <marker date="1536062958333" expanded="true" signature="3385:4121" ph="update shoes_detail... " />
+            <marker date="1536062958333" expanded="true" signature="4218:4624" ph="update shoes_detail... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/ui/ButtonUIServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/ui/ProductDetailsUIServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/ui/TopUIServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/servlet/ShoesParticulars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/util/MybatisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/register.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="150" column="22" lean-forward="true" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="289" column="17" lean-forward="false" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/productDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="15" column="69" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="1450">
+          <caret line="58" column="64" lean-forward="false" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>

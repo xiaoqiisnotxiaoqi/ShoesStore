@@ -16,7 +16,7 @@ public class ShoesMapperTest {
         ShoesMapper shoesMapper = sqlSession.getMapper(ShoesMapper.class);
         List<Shoes> shoesList = shoesMapper.selectBySize(41f);
         System.out.println(shoesList);
-
+        MybatisUtil.closeSession();
     }
 
     @Test
@@ -25,6 +25,8 @@ public class ShoesMapperTest {
         ShoesMapper shoesMapper = sqlSession.getMapper(ShoesMapper.class);
         List<Shoes> shoesList = shoesMapper.selectAll();
         System.out.println(shoesList);
+        MybatisUtil.closeSession();
+
     }
 
     @Test
@@ -33,6 +35,7 @@ public class ShoesMapperTest {
         ShoesMapper shoesMapper = sqlSession.getMapper(ShoesMapper.class);
         List<Shoes> shoesList = shoesMapper.selectByName("测试");
         System.out.println(shoesList);
+        MybatisUtil.closeSession();
 
     }
 
@@ -42,6 +45,7 @@ public class ShoesMapperTest {
         ShoesMapper shoesMapper = sqlSession.getMapper(ShoesMapper.class);
         List<Shoes> shoesList = shoesMapper.selectByGender(0);
         System.out.println(shoesList);
+        MybatisUtil.closeSession();
 
 
     }
@@ -52,14 +56,15 @@ public class ShoesMapperTest {
         ShoesMapper shoesMapper = sqlSession.getMapper(ShoesMapper.class);
         List<Shoes> shoesList = shoesMapper.queryByPrice(400f,500f);
         System.out.println(shoesList);
+        MybatisUtil.closeSession();
 
     }
 
     @Test
-    public void queryByCategory(){
+    public void queryByCategory(){//根据类别查询
         SqlSession sqlSession = MybatisUtil.getSession();
         ShoesMapper shoesMapper = sqlSession.getMapper(ShoesMapper.class);
-        List<Shoes> shoesList = shoesMapper.queryByCategory(10003);
+        List<Shoes> shoesList = shoesMapper.queryByCategory(10001);
         System.out.println(shoesList);
         System.out.print("我真帅！");
 

@@ -1,0 +1,232 @@
+.login{
+
+    width: 800px;
+    height: 450px;
+    margin-left:20px ;
+    border-right: 2px solid rgba(208, 208, 208, 0.36);
+    margin-top: 200px;
+}
+.tel_login{
+    width: 700px;
+    height: 450px;
+    margin-left:20px ;
+     /*border:1px solid #6e8064;*/
+    margin-top: 200px;
+}
+
+.tel_login .top{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(153, 153, 153, 0.57);
+
+}
+.tel_login .top span{
+    line-height: 50px;
+    position: relative;
+    left: 330px;
+    font-size: 20px;
+}
+.login_pass{
+    margin-top: 30px;
+}
+.login_pass ul{
+    margin-left: 20px;
+}
+.login_pass li{
+    list-style-type: none;
+    font-size: 20px;
+}
+.login_pass .forget{
+    position: relative;
+    left: 160px;
+    top: 25px;
+}
+a{
+    color: grey;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: red;
+}
+.forget_pass{
+    position: relative;
+    top: 18px;
+    font-size: 15px;
+}
+.login_pass input{
+    width: 400px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 60px;
+
+}
+.email_login_1{
+    position: relative;
+    top:40px;
+    left: 26px;
+}
+.login_pass input::placeholder{
+    font-size: 20px;
+    position: relative;
+    left: 5px;
+}
+#password{
+    margin-left:80px;
+
+}
+#password, #name{
+    font-size: 20px;
+}
+
+.login_submit input{
+    width: 90px;
+    height: 66px;
+    border: none;
+    position: relative;
+    left: 180px;
+    top: 40px;
+    margin-right: 220px;
+    border-radius: 10px;
+}
+.login_submit input:hover{
+    background-color: rgb(55, 55, 55);
+}
+.bottom{
+    width: 80%;
+    height: 500px;
+    overflow: hidden;
+    margin-left: 150px;
+    margin-top:-40px;
+}
+.bottom table{
+    width: 70%;
+    height: 350px;
+    position: relative;
+    left: 30px;
+    float: left;
+}
+.bottom .bottom_right{
+    width: 30%;
+    float: right;
+    position: relative;
+    top: 35px;
+
+}
+
+table td{
+    position: relative;
+    top: 50px;
+}
+table td .td1{
+    font-weight: 500;
+    font-size: 10px;
+    color: black;
+}
+.bottom a{
+    font-size: 13px;
+
+}
+.span1{
+    position: relative;
+    top: -50px;
+    left: 200px;
+}
+.bottom_right img{
+    position: relative;
+    top: 100px;
+    left:-170px;
+}
+
+.flog{
+    width: 100%;
+    height: 120px;
+    margin-top: 150px;
+}
+hr {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    background-color: rgba(175, 175, 175, 0.63);
+}
+.hr{
+    position: relative;
+    top:15px;
+}
+.hr2{
+       position: relative;
+
+   }
+.hr2{
+    position: relative;
+    top:-40px;
+
+}
+.hr3{
+    margin-top: -110px;
+    width: 100%;
+}
+
+.bottom_foot{
+    width: 100%;
+    height: 200px;
+}
+.bottom_foot img{
+    position: relative;
+    top: 50px;
+    left: 670px;
+    margin-bottom:50px;
+}
+.bottom_foot p{
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+.error-tip{
+    margin-left: 10px;
+    font-size: 18px;
+    color: red;
+    /*background: rgba(177, 177, 186, 0.58);*/
+    margin-bottom: -18px;
+}
+.error-tip span {
+    margin-left: 150px;
+
+}
+
+
+.bot_left{
+    position: relative;
+    top: 50px;
+    left: 10px;
+    color: rgba(177, 177, 186, 0.58);
+
+}
+.bot_left .bot_right{
+    position:relative;
+   float:right;
+    right:10px;
+    margin-left:25px;
+}
+.flog .container-pad{
+    background: transparent;
+    height: 100%;
+
+}
+.container-pad {
+    width: 240px;
+    height: 65px;
+    padding-top:20px;
+    margin-left: 650px;
+
+}
+.container-pad li{
+     list-style-type: none;
+     height:100%;
+    float: left;
+
+ }

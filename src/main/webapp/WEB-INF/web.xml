@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+    
+    <servlet>
+        <servlet-name>productDetail.jsp</servlet-name>
+        <servlet-class>com.chixing.servlet.ShoesParticulars</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>productDetail.jsp</servlet-name>
+        <url-pattern>/email</url-pattern>
+    </servlet-mapping>
 </web-app>

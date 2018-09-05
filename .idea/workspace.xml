@@ -2,82 +2,40 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="maver_test:war" />
+      <artifact name="ShoesStore:Web exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f33fc442-b0fe-4990-ab60-f0d708e2bf5a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/maver_test_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/maver_test_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_6_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_caches_mybatis_ehcache_1_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/maver_test.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Util/MybatisUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CartMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CategoryMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CustLoginMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CustomerMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/MyOrderMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/OrderDetailMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ReceiveAddressMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesColorMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesDetailMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesImgMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesSizeMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/Cart.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/Category.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/CustLogin.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/Customer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/MyOrder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/OrderDetail.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/OrderDetailKey.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ReceiveAddress.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/Shoes.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ShoesColor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ShoesDetail.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ShoesImg.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/pojo/ShoesSize.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CartMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CategoryMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustLoginMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/MyOrderMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/OrderDetailMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ReceiveAddressMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesColorMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesDetailMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesImgMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesSizeMapper.xml" />
+    <list default="true" id="f33fc442-b0fe-4990-ab60-f0d708e2bf5a" name="Default" comment="qinjb 9/5 0:53">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ShoesStore_Web_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/javaEE_application.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_servlet_api_6_0_53.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/servlet/ShoesParticulars.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/config/dbconn.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/config/mybatis-config.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/log4j.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/qinjb/tese1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/rzz/custLogintest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/rzz/customerMappertest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/sunj/CategoryMapperTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/sunj/ShoesMapperTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/sunj/tese1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/zhoul/tese1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/productDetails.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/1530088490-44294000.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/add_F.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/add_xxiangji.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/add_企鹅.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/arrow-left-big.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/arrow-left-small.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/bottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/img1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/img2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/img3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/img4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/img5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/img6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/img7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/ios_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/right-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/timg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/productDetails.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/button.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/productDetail.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/top.jsp" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Util/MybatisUtil.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CartMapper.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CartMapper.xml" />
@@ -179,6 +137,17 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/sunj/ShoesMapperTest.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/sunj/tese1.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/zhoul/tese1.class" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/maver_test_war.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/maver_test_war_exploded.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ShoesStore.iml" afterPath="$PROJECT_DIR$/ShoesStore.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/register.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/register.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register/register.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -189,36 +158,132 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Tencent" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tese1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/qinjb/tese1.java">
+      <file leaf-file-name="ShoesMapperTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/sunj/ShoesMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="69" column="24" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="63" column="26" lean-forward="false" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml">
+      <file leaf-file-name="tese1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/zhoul/tese1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="30" />
+              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productDetail.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/productDetail.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3548">
+              <caret line="963" column="0" lean-forward="false" selection-start-line="963" selection-start-column="0" selection-end-line="963" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/config/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="60" column="72" lean-forward="false" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoesMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoesMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="49" />
               <folding>
-                <marker date="1536062958188" expanded="true" signature="1228:1341" ph="select from customer" />
-                <marker date="1536062958188" expanded="true" signature="1427:1494" ph="delete from customer... " />
-                <marker date="1536062958188" expanded="true" signature="1576:2052" ph="insert into customer... " />
-                <marker date="1536062958188" expanded="true" signature="3820:4730" ph="update customer... " />
-                <marker date="1536062958188" expanded="true" signature="4824:5307" ph="update customer... " />
-                <marker date="1536062958188" expanded="true" signature="5390:5497" ph="update customer... " />
-                <marker date="1536062958188" expanded="true" signature="5606:5671" ph="select cust_... customer" />
-                <marker date="1536062958188" expanded="true" signature="5757:5821" ph="select cust_... customer" />
-                <marker date="1536062958188" expanded="true" signature="5900:5978" ph="select * fro... customer" />
-                <marker date="1536062958188" expanded="true" signature="6055:6133" ph="select * fro... customer" />
+                <marker date="1536079854201" expanded="true" signature="1579:1788" ph="select shoes... shoes" />
+                <marker date="1536079854201" expanded="true" signature="1917:2166" ph="select shoes... shoes" />
+                <marker date="1536079854201" expanded="true" signature="2299:2543" ph="select shoes... shoes" />
+                <marker date="1536079854201" expanded="true" signature="2674:2895" ph="select shoes... shoes" />
+                <marker date="1536079854201" expanded="true" signature="2998:3278" ph="select shoes... shoes" />
+                <marker date="1536079854201" expanded="true" signature="3415:3490" ph="select shoes... shoes" />
+                <marker date="1536079854201" expanded="true" signature="3612:3734" ph="select from shoes" />
+                <marker date="1536079854201" expanded="true" signature="3824:3890" ph="delete from shoes... " />
+                <marker date="1536079854201" expanded="true" signature="3971:4629" ph="insert into shoes... " />
+                <marker date="1536079854201" expanded="true" signature="7461:8969" ph="update shoes... " />
+                <marker date="1536079854201" expanded="true" signature="9064:9736" ph="update shoes... " />
               </folding>
             </state>
           </provider>
@@ -231,8 +296,10 @@
       <list>
         <option value="HTML File" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="jsf" />
+        <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -252,7 +319,6 @@
         <option value="$PROJECT_DIR$/src/test/qinjb/tese1.java" />
         <option value="$PROJECT_DIR$/src/main/resource/com.chixing.dao/MyOrderMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Test2.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/Repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/MyOrderMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/CartMapper.java" />
@@ -267,7 +333,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/ShoesMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/ShoesSizeMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesSizeMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesImgMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesDetailMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesColorMapper.xml" />
@@ -287,6 +352,14 @@
         <option value="$PROJECT_DIR$/src/test/java/sunj/ShoesMapperTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/sunj/tese1.java" />
         <option value="$PROJECT_DIR$/src/test/java/zhoul/tese1.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/productDetails.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/servlet/ShoesParticulars.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/productDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/button.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -316,11 +389,44 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="maver_test Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="164" />
-    <option name="y" value="11" />
+    <option name="x" value="180" />
+    <option name="y" value="51" />
     <option name="width" value="1114" />
     <option name="height" value="722" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>ServletWithoutMappingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -337,12 +443,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
@@ -367,7 +487,7 @@
               <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
@@ -375,20 +495,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -397,32 +517,163 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaEEtest" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.chixing.dao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\idea\maver_test\src\test\java" />
-      <recent name="E:\idea\maver_test\src\main\resource\com\chixing\mapper" />
-      <recent name="E:\idea\maver_test\src\main\java\com\chixing\entity" />
-      <recent name="E:\idea\maver_test\src\main\java\com\chixing\dao" />
-      <recent name="E:\idea\maver_test\src\main\resource" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Util" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea\ShotStore\ShoesStore\src\main\webapp\jsp" />
       <recent name="E:\idea\maver_test\src\main\resource" />
       <recent name="E:\idea\maver_test\src\main\resources\com.chixing.dao" />
       <recent name="E:\idea\maver_test\src\main\resources" />
       <recent name="E:\idea\maver_test\src" />
-      <recent name="E:\idea\maver_test\src\main" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea\ShotStore\ShoesStore\src\main\webapp\imgs" />
+      <recent name="E:\idea\ShotStore\ShoesStore\src\main\webapp\js" />
+      <recent name="E:\idea\ShotStore\ShoesStore\src\main\webapp\css" />
+      <recent name="E:\idea\maver_test\src\test\java" />
+      <recent name="E:\idea\maver_test\src\main\resource\com\chixing\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Util" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.chixing.dao" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesMapper.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resource/config/mybatis-config.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resource/log4j.properties</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/sunj/CategoryMapperTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/sunj/ShoesMapperTest.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/css/register.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/images/1530088490-44294000.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/images/TIM截图20180902130757.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/images/TIM截图20180902130836.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/images/bottom.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/images/ios_bg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/images/right-icon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/images/search-icon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/images/timg.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/images/对号.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/js/register.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/register/register.jsp</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -458,6 +709,31 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration name="ShoesMapperTest.queryByCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sunj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ShoesStore" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sunj" />
+      <option name="MAIN_CLASS_NAME" value="sunj.ShoesMapperTest" />
+      <option name="METHOD_NAME" value="queryByCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -478,6 +754,56 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="customerMappertest.isValidEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="rzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ShoesStore" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="rzz" />
+      <option name="MAIN_CLASS_NAME" value="rzz.customerMappertest" />
+      <option name="METHOD_NAME" value="isValidEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="tese1.testCartMapperOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="zhoul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ShoesStore" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="zhoul" />
+      <option name="MAIN_CLASS_NAME" value="zhoul.tese1" />
+      <option name="METHOD_NAME" value="testCartMapperOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="tese1.testUpdateStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -485,7 +811,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="maver_test" />
+      <module name="ShoesStore" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="qinjb" />
@@ -503,45 +829,17 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="maver_test" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test1" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="test1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="maver_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test1" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
       <envs />
-      <patterns />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -580,7 +878,7 @@
     <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.321" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="maver_test:war">
+        <artifact name="ShoesStore:Web exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -645,7 +943,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="maver_test:war" />
+          <artifact name="ShoesStore:Web exploded" />
         </option>
       </method>
     </configuration>
@@ -655,17 +953,19 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.test1.test2" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.test1" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.tese1.testUpdateStatus" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.tese1.testUpdateStatus" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.customerMappertest.isValidEmail" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ShoesMapperTest.queryByCategory" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.tese1.testCartMapperOne" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.tese1.testUpdateStatus" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.test1.test2" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.test1" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.tese1.testCartMapperOne" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ShoesMapperTest.queryByCategory" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.customerMappertest.isValidEmail" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.tese1.testUpdateStatus" />
       </list>
     </recent_temporary>
   </component>
@@ -687,27 +987,46 @@
       <workItem from="1536023577308" duration="2077000" />
       <workItem from="1536061273719" duration="690000" />
       <workItem from="1536061979042" duration="1591000" />
+      <workItem from="1536076533734" duration="3707000" />
     </task>
+    <task id="LOCAL-00001" summary="qinjb 9/4 21:21">
+      <created>1536067334143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536067334144</updated>
+    </task>
+    <task id="LOCAL-00002" summary="qinjb 9/4 21:21">
+      <created>1536067605741</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536067605741</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="tese1_testUpdateStatus - 2018.09.04 at 20h 18m 28s.xml">
+    <history-entry file="ShoesMapperTest_queryByCategory - 2018.09.05 at 00h 16m 41s.xml">
+      <configuration name="ShoesMapperTest.queryByCategory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoesMapperTest_queryByCategory - 2018.09.05 at 00h 19m 58s.xml">
+      <configuration name="ShoesMapperTest.queryByCategory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoesMapperTest_queryByCategory - 2018.09.05 at 00h 31m 58s.xml">
+      <configuration name="ShoesMapperTest.queryByCategory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="customerMappertest_isValidEmail - 2018.09.05 at 00h 16m 16s.xml">
+      <configuration name="customerMappertest.isValidEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="tese1_testCartMapperOne - 2018.09.05 at 00h 32m 32s.xml">
+      <configuration name="tese1.testCartMapperOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="tese1_testCartMapperOne - 2018.09.05 at 00h 44m 07s.xml">
+      <configuration name="tese1.testCartMapperOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="tese1_testUpdateStatus - 2018.09.05 at 00h 16m 00s.xml">
       <configuration name="tese1.testUpdateStatus" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="tese1_testUpdateStatus - 2018.09.04 at 20h 20m 47s.xml">
-      <configuration name="tese1.testUpdateStatus" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test1 - 2018.09.03 at 12h 47m 30s.xml">
-      <configuration name="test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test1_test2 - 2018.09.03 at 11h 25m 39s.xml">
-      <configuration name="test1.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test1_test2 - 2018.09.03 at 11h 27m 25s.xml">
-      <configuration name="test1.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test1_test2 - 2018.09.03 at 11h 28m 20s.xml">
-      <configuration name="test1.test2" configurationId="JUnit" />
     </history-entry>
     <history-entry file="test1_test2 - 2018.09.03 at 11h 29m 19s.xml">
       <configuration name="test1.test2" configurationId="JUnit" />
@@ -720,64 +1039,52 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20894000" />
+    <option name="totallyTimeSpent" value="30128000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17504051" sideWeight="0.40998486" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68557537" sideWeight="0.49394855" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.116504855" sideWeight="0.76626325" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30307943" sideWeight="0.7435703" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17504051" sideWeight="0.5900151" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.565625" sideWeight="0.54978037" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07617504" sideWeight="0.22919819" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07617504" sideWeight="0.77080184" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273906" sideWeight="0.49016643" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24508321" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11488673" sideWeight="0.2246596" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5089141" sideWeight="0.49394855" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11488673" sideWeight="0.7753404" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24130106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.49620494" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -786,36 +1093,23 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="qinjb 9/4 21:21" />
+    <MESSAGE value="qinjb 9/5 0:11" />
+    <MESSAGE value="qinjb 9/5 0:33" />
+    <option name="LAST_COMMIT_MESSAGE" value="qinjb 9/5 0:33" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resource/config/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="74" lean-forward="false" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.chixing/123.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/test/as.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/test/qinjb/tese1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/dbconn.properties" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/com.chixing.dao/MyOrderMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/MyOrderDAO.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/pojo/MyOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/entity/CartExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/dao/MyBatisBaseDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/dao/Repository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/dao/CartDAO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/dao/MyOrderDAO.java" />
@@ -823,13 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -838,6 +1125,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
           <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -845,6 +1135,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -852,6 +1145,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -859,6 +1153,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -866,6 +1163,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50">
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -873,6 +1171,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -880,6 +1179,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -887,6 +1189,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -904,6 +1207,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -911,13 +1217,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="71" column="60" lean-forward="false" selection-start-line="71" selection-start-column="60" selection-end-line="71" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="214" column="62" lean-forward="false" selection-start-line="214" selection-start-column="62" selection-end-line="214" selection-end-column="62" />
+          <folding>
+            <marker date="1536062958128" expanded="true" signature="690:858" ph="select ss.sh... shoes_detail" />
+            <marker date="1536062958128" expanded="true" signature="970:1096" ph="select from shoes_size" />
+            <marker date="1536062958128" expanded="true" signature="1182:1262" ph="delete from shoes_size... " />
+            <marker date="1536062958128" expanded="true" signature="1345:1523" ph="insert into shoes_size... " />
+            <marker date="1536062958128" expanded="true" signature="2349:2641" ph="update shoes_size... " />
+            <marker date="1536062958128" expanded="true" signature="2736:2907" ph="update shoes_size... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -925,6 +1232,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-39">
           <caret line="107" column="60" lean-forward="false" selection-start-line="107" selection-start-column="60" selection-end-line="107" selection-end-column="60" />
+          <folding>
+            <marker date="1536062958333" expanded="true" signature="1090:1222" ph="select from shoes_detail" />
+            <marker date="1536062958333" expanded="true" signature="1308:1394" ph="delete from shoes_detail... " />
+            <marker date="1536062958333" expanded="true" signature="1479:1878" ph="insert into shoes_detail... " />
+            <marker date="1536062958333" expanded="true" signature="3385:4121" ph="update shoes_detail... " />
+            <marker date="1536062958333" expanded="true" signature="4218:4624" ph="update shoes_detail... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -932,6 +1246,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="74" column="60" lean-forward="false" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
+          <folding>
+            <marker date="1536062957620" expanded="true" signature="732:861" ph="select from shoes_color" />
+            <marker date="1536062957620" expanded="true" signature="978:1237" ph="select color... shoes_color" />
+            <marker date="1536062957620" expanded="true" signature="1324:1407" ph="delete from shoes_color... " />
+            <marker date="1536062957620" expanded="true" signature="1491:1699" ph="insert into shoes_color... " />
+            <marker date="1536062957620" expanded="true" signature="2581:2914" ph="update shoes_color... " />
+            <marker date="1536062957620" expanded="true" signature="3010:3211" ph="update shoes_color... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -939,6 +1261,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-35">
           <caret line="152" column="60" lean-forward="false" selection-start-line="152" selection-start-column="60" selection-end-line="152" selection-end-column="60" />
+          <folding>
+            <marker date="1536062957386" expanded="true" signature="1559:1685" ph="select from receive_address" />
+            <marker date="1536062957386" expanded="true" signature="1771:1851" ph="delete from receive_address... " />
+            <marker date="1536062957386" expanded="true" signature="1939:2613" ph="insert into receive_address... " />
+            <marker date="1536062957386" expanded="true" signature="4895:6147" ph="update receive_address... " />
+            <marker date="1536062957386" expanded="true" signature="6247:6928" ph="update receive_address... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -946,6 +1275,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="84" column="60" lean-forward="false" selection-start-line="84" selection-start-column="60" selection-end-line="84" selection-end-column="60" />
+          <folding>
+            <marker date="1536062957316" expanded="true" signature="908:1086" ph="select from order_detail" />
+            <marker date="1536062957316" expanded="true" signature="1186:1319" ph="delete from order_detail... " />
+            <marker date="1536062957316" expanded="true" signature="1409:1697" ph="insert into order_detail... " />
+            <marker date="1536062957316" expanded="true" signature="2879:3356" ph="update order_detail... " />
+            <marker date="1536062957316" expanded="true" signature="3453:3753" ph="update order_detail... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -953,6 +1289,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-410">
           <caret line="103" column="69" lean-forward="false" selection-start-line="103" selection-start-column="69" selection-end-line="103" selection-end-column="69" />
+          <folding>
+            <marker date="1536062957493" expanded="true" signature="1038:1153" ph="select from my_order" />
+            <marker date="1536062957493" expanded="true" signature="1233:1631" ph="select myord... my_order" />
+            <marker date="1536062957493" expanded="true" signature="1702:2102" ph="select myord... my_order" />
+            <marker date="1536062957493" expanded="true" signature="2182:2548" ph="insert into my_order... " />
+            <marker date="1536062957493" expanded="true" signature="3995:4696" ph="update my_order... " />
+            <marker date="1536062957493" expanded="true" signature="4742:4819" ph="update my_order... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -960,6 +1304,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
           <caret line="106" column="60" lean-forward="false" selection-start-line="106" selection-start-column="60" selection-end-line="106" selection-end-column="60" />
+          <folding>
+            <marker date="1536062957952" expanded="true" signature="1010:1127" ph="select from cust_login" />
+            <marker date="1536062957952" expanded="true" signature="1213:1284" ph="delete from cust_login... " />
+            <marker date="1536062957952" expanded="true" signature="1365:1714" ph="insert into cust_login... " />
+            <marker date="1536062957952" expanded="true" signature="3127:3799" ph="update cust_login... " />
+            <marker date="1536062957952" expanded="true" signature="3894:4250" ph="update cust_login... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -967,6 +1318,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
           <caret line="104" column="62" lean-forward="false" selection-start-line="104" selection-start-column="62" selection-end-line="104" selection-end-column="62" />
+          <folding>
+            <marker date="1536062957517" expanded="true" signature="1023:1154" ph="select categ... category" />
+            <marker date="1536062957517" expanded="true" signature="1276:1407" ph="select from category" />
+            <marker date="1536062957517" expanded="true" signature="1497:1572" ph="delete from category... " />
+            <marker date="1536062957517" expanded="true" signature="1656:2031" ph="insert into category... " />
+            <marker date="1536062957517" expanded="true" signature="3698:4484" ph="update category... " />
+            <marker date="1536062957517" expanded="true" signature="4582:4957" ph="update category... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -974,6 +1333,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
           <caret line="100" column="60" lean-forward="false" selection-start-line="100" selection-start-column="60" selection-end-line="100" selection-end-column="60" />
+          <folding>
+            <marker date="1536062958216" expanded="true" signature="913:1022" ph="select from cart" />
+            <marker date="1536062958216" expanded="true" signature="1108:1171" ph="delete from cart... " />
+            <marker date="1536062958216" expanded="true" signature="1211:1337" ph="delete from cart... " />
+            <marker date="1536062958216" expanded="true" signature="1413:1711" ph="insert into cart... " />
+            <marker date="1536062958216" expanded="true" signature="2954:3521" ph="update cart... " />
+            <marker date="1536062958216" expanded="true" signature="3611:3910" ph="update cart... " />
+            <marker date="1536062958216" expanded="true" signature="3955:4107" ph="update cart... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -982,6 +1350,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="74" column="60" lean-forward="false" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
+          <folding>
+            <marker date="1536062957888" expanded="true" signature="735:847" ph="select from shoes_img" />
+            <marker date="1536062957888" expanded="true" signature="933:999" ph="delete from shoes_img... " />
+            <marker date="1536062957888" expanded="true" signature="1081:1279" ph="insert into shoes_img... " />
+            <marker date="1536062957888" expanded="true" signature="2207:2568" ph="update shoes_img... " />
+            <marker date="1536062957888" expanded="true" signature="2662:2860" ph="update shoes_img... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -989,13 +1364,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
           <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,13 +1372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/config/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="60" column="72" lean-forward="false" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -1021,24 +1383,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rzz/customerMappertest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1393">
-          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sunj/CategoryMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sunj/ShoesMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-850">
-          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1052,23 +1400,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/zhoul/tese1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/qinjb/tese1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="69" column="24" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/productDetails.xhtml" />
     <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1088,13 +1420,180 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://table:/17f4234c/119225c1-ed0a-4499-ace3-a91aaa255a8c/shoes_store.cart">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/button.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3350">
+          <caret line="134" column="10" lean-forward="false" selection-start-line="134" selection-start-column="10" selection-end-line="134" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2475">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/servlet/ShoesParticulars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/maver_test_war_exploded.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/qinjb/tese1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="69" column="25" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rzz/customerMappertest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="7" column="65" lean-forward="false" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/config/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="60" column="72" lean-forward="false" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/ShoesMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="49" />
+          <folding>
+            <marker date="1536079854201" expanded="true" signature="1579:1788" ph="select shoes... shoes" />
+            <marker date="1536079854201" expanded="true" signature="1917:2166" ph="select shoes... shoes" />
+            <marker date="1536079854201" expanded="true" signature="2299:2543" ph="select shoes... shoes" />
+            <marker date="1536079854201" expanded="true" signature="2674:2895" ph="select shoes... shoes" />
+            <marker date="1536079854201" expanded="true" signature="2998:3278" ph="select shoes... shoes" />
+            <marker date="1536079854201" expanded="true" signature="3415:3490" ph="select shoes... shoes" />
+            <marker date="1536079854201" expanded="true" signature="3612:3734" ph="select from shoes" />
+            <marker date="1536079854201" expanded="true" signature="3824:3890" ph="delete from shoes... " />
+            <marker date="1536079854201" expanded="true" signature="3971:4629" ph="insert into shoes... " />
+            <marker date="1536079854201" expanded="true" signature="7461:8969" ph="update shoes... " />
+            <marker date="1536079854201" expanded="true" signature="9064:9736" ph="update shoes... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sunj/ShoesMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="63" column="26" lean-forward="false" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/zhoul/tese1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/119225c1-ed0a-4499-ace3-a91aaa255a8c/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3548">
+          <caret line="963" column="0" lean-forward="false" selection-start-line="963" selection-start-column="0" selection-end-line="963" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/productDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>maver_test:war</last-edited>
+          <last-edited>javaEE application</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1107,7 +1606,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web (ShoesStore)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1142,7 +1641,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>maver_test</last-edited>
+          <last-edited>Web|ShoesStore</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

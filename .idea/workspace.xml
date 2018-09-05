@@ -7,6 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f33fc442-b0fe-4990-ab60-f0d708e2bf5a" name="Default" comment="qinjb 9/5 0:53">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/controller/UpdatePersonalInformationServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/course/request/CustomerCenterServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/servlet/UpdatePersonalInformationService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/servlet/impl/UpdatePersonalInformationServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/ui/CustomerCenterUIServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/customer_center.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/customer_center.css" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Util/MybatisUtil.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CartMapper.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CartMapper.xml" />
@@ -45,6 +52,7 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/ShoesDetail.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/ShoesImg.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/pojo/ShoesSize.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/config/dbconn.properties" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/config/mybatis-config.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/maver_test.war" />
@@ -108,7 +116,10 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/sunj/tese1.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/zhoul/tese1.class" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/config/dbconn.properties" afterPath="$PROJECT_DIR$/target/classes/config/dbconn.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CustomerMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CustomerMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chixing/servlet/ShoesParticulars.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -137,112 +148,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="productDetail.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/productDetail.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="15" column="69" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1450">
-              <caret line="58" column="64" lean-forward="false" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="289" column="17" lean-forward="false" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductDetailsUIServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/ui/ProductDetailsUIServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TopUIServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/ui/TopUIServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShoesParticulars.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/servlet/ShoesParticulars.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MybatisUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/util/MybatisUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="top.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/top.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/register.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="150" column="22" lean-forward="true" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -267,21 +173,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/OrderDetailMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/ReceiveAddressMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/ShoesColorMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/ShoesDetailMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/ShoesImgMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/ShoesMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chixing/dao/ShoesSizeMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesSizeMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesImgMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesDetailMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/ShoesColorMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/OrderDetailMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/MyOrderMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustLoginMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CategoryMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CartMapper.xml" />
@@ -314,10 +211,19 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/top.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/chixing/util/MybatisUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/register.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/productDetail.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/ui/CustomerCenterUIServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/servlet/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/servlet/impl/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/customer_center.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/customer_center.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/course/request/CustomerCenterServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CustomerMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chixing/controller/UpdatePersonalInformationServlet.java" />
       </list>
     </option>
   </component>
@@ -361,11 +267,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="97" />
-    <option name="y" value="21" />
-    <option name="width" value="1114" />
-    <option name="height" value="722" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="196" />
+    <option name="width" value="1054" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -411,67 +316,6 @@
               <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chixing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -490,24 +334,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ShoesStore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BasicGrammar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35114503" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea\ShotStore\ShoesStore\src\main\resource\config" />
       <recent name="E:\idea\maver_test\src\main\resource" />
       <recent name="E:\idea\maver_test\src\main\resources\com.chixing.dao" />
       <recent name="E:\idea\maver_test\src\main\resources" />
       <recent name="E:\idea\maver_test\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea\ShotStore\ShoesStore\src\main\webapp\css" />
+      <recent name="E:\idea\ShotStore\ShoesStore\src\main\java\com\chixing\servlet" />
       <recent name="E:\idea\ShotStore\ShoesStore\src\main\webapp\WEB-INF\page" />
       <recent name="E:\idea\ShotStore\ShoesStore\src\main\webapp\images" />
       <recent name="F:\git\git001\ShoesStore\src\main\resource\config" />
-      <recent name="F:\git\git001\ShoesStore\src\test\java" />
-      <recent name="E:\idea\maver_test\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Util" />
@@ -859,7 +704,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536152846685</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="qinjb 9/5 0:53">
+      <created>1536152983237</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536152983237</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -898,7 +750,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35276000" />
+    <option name="totallyTimeSpent" value="44766000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -910,10 +762,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="97" y="21" width="1114" height="722" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1982906" sideWeight="0.38235295" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.089141004" sideWeight="0.38199696" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -931,9 +783,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13614263" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1982906" sideWeight="0.61764705" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.267423" sideWeight="0.618003" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30550283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24357034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.49620494" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1014,13 +866,13 @@
     <MESSAGE value="qinjb 9/4 21:21" />
     <MESSAGE value="qinjb 9/5 0:11" />
     <MESSAGE value="qinjb 9/5 0:33" />
-    <MESSAGE value="qinjb 9/5 0:53" />
     <MESSAGE value="qinjb 9/5 21:07" />
-    <option name="LAST_COMMIT_MESSAGE" value="qinjb 9/5 21:07" />
+    <MESSAGE value="qinjb 9/5 0:53" />
+    <option name="LAST_COMMIT_MESSAGE" value="qinjb 9/5 0:53" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1029,57 +881,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/rzz/custLogintest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sunj/CategoryMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rzz/custLogintest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rzz/customerMappertest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1393">
-          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sunj/ShoesMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-850">
-          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sunj/tese1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/productDetails.xhtml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/17f4234c/119225c1-ed0a-4499-ace3-a91aaa255a8c/shoes_store.cart" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2475">
@@ -1098,14 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="69" column="278" lean-forward="false" selection-start-line="69" selection-start-column="278" selection-end-line="69" selection-end-column="278" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1359,16 +1152,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/servlet/ShoesParticulars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/util/MybatisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1377,18 +1160,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/register.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="150" column="22" lean-forward="true" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+          <caret line="150" column="22" lean-forward="false" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1397,9 +1172,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1411,18 +1184,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/productDetail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="15" column="69" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1450">
           <caret line="58" column="64" lean-forward="false" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/servlet/ShoesParticulars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/customer_center.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/pojo/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/productDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2272">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/servlet/UpdatePersonalInformationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="72" lean-forward="false" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/servlet/impl/UpdatePersonalInformationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="12" column="84" lean-forward="false" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/ui/CustomerCenterUIServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/customer_center.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="46" column="53" lean-forward="false" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="53" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/course/request/CustomerCenterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/controller/UpdatePersonalInformationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chixing/mapper/CustomerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="40" column="29" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <marker date="1536164516922" expanded="true" signature="1228:1340" ph="select from customer" />
+            <marker date="1536164516922" expanded="true" signature="1450:1566" ph="select from customer" />
+            <marker date="1536164516922" expanded="true" signature="1654:1721" ph="delete from customer... " />
+            <marker date="1536164516922" expanded="true" signature="1803:2279" ph="insert into customer... " />
+            <marker date="1536164516922" expanded="true" signature="4047:4957" ph="update customer... " />
+            <marker date="1536164516922" expanded="true" signature="5051:5534" ph="update customer... " />
+            <marker date="1536164516922" expanded="true" signature="5617:5724" ph="update customer... " />
+            <marker date="1536164516922" expanded="true" signature="5833:5898" ph="select cust_... customer" />
+            <marker date="1536164516922" expanded="true" signature="5984:6048" ph="select cust_... customer" />
+            <marker date="1536164516922" expanded="true" signature="6127:6205" ph="select * fro... customer" />
+            <marker date="1536164516922" expanded="true" signature="6282:6360" ph="select * fro... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="50" column="36" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="36" />
           <folding />
         </state>
       </provider>

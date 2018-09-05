@@ -7,13 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f33fc442-b0fe-4990-ab60-f0d708e2bf5a" name="Default" comment="qinjb 9/5 0:53">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/controller/UpdatePersonalInformationServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/course/request/CustomerCenterServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/servlet/UpdatePersonalInformationService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/servlet/impl/UpdatePersonalInformationServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/ui/CustomerCenterUIServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/customer_center.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/customer_center.css" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Util/MybatisUtil.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CartMapper.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chixing/mapper/CartMapper.xml" />
@@ -116,10 +109,6 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/sunj/tese1.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/zhoul/tese1.class" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CustomerMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/chixing/mapper/CustomerMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chixing/servlet/ShoesParticulars.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml" afterPath="$PROJECT_DIR$/src/main/resource/com/chixing/mapper/CustomerMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -711,7 +700,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536152983237</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="qinjb 9/5 0:53">
+      <created>1536165979921</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1536165979921</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -750,7 +746,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44766000" />
+    <option name="totallyTimeSpent" value="44825000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

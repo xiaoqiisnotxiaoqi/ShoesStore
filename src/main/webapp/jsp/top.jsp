@@ -39,12 +39,12 @@
                 <li class="threebox">
                     <div id="right-nav-box">
                         <div class="inner-right-box">
-                            <div class="naviconbox"><img src="../imgs/TIM截图20180902130757.png" height="32" width="32"/>
+                            <div class="naviconbox"><img src="../images/TIM截图20180902130757.png" height="32" width="32"/>
                             </div>
                             <a class="rightnav-font" href=" ">账户</a>
                         </div>
                         <div class="inner-right-box">
-                            <div class="naviconbox"><img src="../imgs/TIM截图20180902130836.png" height="32" width="33"/>
+                            <div class="naviconbox"><img src="../images/TIM截图20180902130836.png" height="32" width="33"/>
                             </div>
                             <a class="rightnav-font" href=" ">购物车</a>
                         </div>

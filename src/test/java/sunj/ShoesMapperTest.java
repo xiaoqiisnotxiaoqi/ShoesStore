@@ -1,6 +1,6 @@
 package sunj;
 
-import Util.MybatisUtil;
+import com.chixing.util.MybatisUtil;
 import com.chixing.mapper.ShoesMapper;
 import com.chixing.pojo.Shoes;
 import org.apache.ibatis.session.SqlSession;

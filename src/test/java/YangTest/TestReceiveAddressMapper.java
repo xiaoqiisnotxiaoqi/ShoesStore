@@ -1,6 +1,6 @@
 package YangTest;
 
-import Util.MybatisUtil;
+import com.chixing.util.MybatisUtil;
 
 
 import com.chixing.mapper.ReceiveAddressMapper;

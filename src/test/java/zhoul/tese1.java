@@ -1,6 +1,6 @@
 package zhoul;
 
-import Util.MybatisUtil;
+import com.chixing.util.MybatisUtil;
 import com.chixing.mapper.CartMapper;
 import com.chixing.mapper.ShoesSizeMapper;
 import com.chixing.pojo.Cart;

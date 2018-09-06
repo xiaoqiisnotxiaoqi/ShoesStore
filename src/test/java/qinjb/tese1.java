@@ -1,6 +1,6 @@
 package qinjb;
 
-import Util.MybatisUtil;
+import com.chixing.util.MybatisUtil;
 import com.chixing.mapper.CustomerMapper;
 import com.chixing.mapper.MyOrderMapper;
 import com.chixing.mapper.OrderDetailMapper;

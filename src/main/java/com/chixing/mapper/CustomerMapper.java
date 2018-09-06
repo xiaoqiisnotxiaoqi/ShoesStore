@@ -32,6 +32,14 @@ public interface CustomerMapper {
     int insertSelective(Customer record);
     //根据用户的id查找所得的信息
     Customer selectByPrimaryKey(Integer custId);
+
+    /**
+     * 根据用户的用户名查找用户
+     * @param userName 用户名
+     * @return  用户对象
+     */
+    Customer selectByUserName(String userName);
+
     int updateByPrimaryKeySelective(Customer record);
       /**
       修改用户信息

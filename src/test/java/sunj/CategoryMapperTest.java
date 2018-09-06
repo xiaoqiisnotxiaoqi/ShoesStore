@@ -1,9 +1,8 @@
 package sunj;
 
-import Util.MybatisUtil;
+import com.chixing.util.MybatisUtil;
 import com.chixing.mapper.CategoryMapper;
 import com.chixing.pojo.Category;
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 

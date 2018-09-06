@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*公用输入框*/
+.text001 {
+    border: 1px darkgrey solid;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    display: inline-block;
+}
+
+.text001 input {
+    display: inline-block;
+    width: 94%;
+    height: 70%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: none;
+    outline: none;
+    font-size: 35px;
+    font-family: 华文细黑;
+}
+
+body {
+    text-align: center;
+}
+
+/*信息条目*/
+#addressdiv {
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#ul001 li {
+    display: block;
+    margin: 30px 0;
+}
+
+#ul001 li span {
+    display: inline-block;
+    width: 200px;
+    font-size: 20px;
+}
+
+#ul001 li label {
+    color: red;
+    font-size: 20px;
+}
+
+#submitdiv {
+    margin-top: 50px;
+}
+
+#submitdiv input {
+    margin-left: 100px;
+    width: 100px;
+    height: 50px;
+}
+
+.info001 {
+    display: inline-block;
+    width: 200px;
+}
+
+

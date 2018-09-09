@@ -7,6 +7,9 @@ import java.io.Serializable;
  * @author 
  */
 public class OrderDetail extends OrderDetailKey implements Serializable {
+    /**
+     * 鞋子数量
+     */
     private Integer quality;
 
     /**

@@ -6,12 +6,13 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page isELIgnored="false" %>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>注册</title>
-    <link rel="stylesheet" href="../../css/register.css">
-    <script src="../../js/register.js"></script>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/register.css">
+    <script src="${pageContext.request.contextPath}/js/register.js"></script>
 </head>
 <body>
 <div id="all">
@@ -31,7 +32,7 @@
                 <!--logo-->
                 <li class="threebox">
                     <div id="logobox">
-                        <img id="logopic" src="../../images/1530088490-44294000.png"/>
+                        <img id="logopic" src="${pageContext.request.contextPath}/images/1530088490-44294000.png"/>
                     </div>
                 </li>
 
@@ -39,12 +40,12 @@
                 <li class="threebox">
                     <div id="right-nav-box">
                         <div class="inner-right-box">
-                            <div class="naviconbox"><img src="../../images/TIM截图20180902130757.png" height="32" width="32"/>
+                            <div class="naviconbox"><img src="${pageContext.request.contextPath}/images/TIM截图20180902130757.png" height="32" width="32"/>
                             </div>
                             <a class="rightnav-font" href=" ">账户</a>
                         </div>
                         <div class="inner-right-box">
-                            <div class="naviconbox"><img src="../../images/TIM截图20180902130836.png" height="32" width="33"/>
+                            <div class="naviconbox"><img src="${pageContext.request.contextPath}/images/TIM截图20180902130836.png" height="32" width="33"/>
                             </div>
                             <a class="rightnav-font" href=" ">购物车</a>
                         </div>

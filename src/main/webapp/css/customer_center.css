@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+IFRAME{
+    border: none;
+}
+
 #left-nav{
     width:200px;
     height: 400px;
@@ -102,7 +107,7 @@
 .cost-username input{
     width: 200px;
     height: 30px;
-    margin: 0 0 0 28px;
+    margin: 0 50px 0 28px;
 }
 
 .cost-age{
@@ -116,13 +121,18 @@
 .cost-age input{
     width: 100px;
     height: 30px;
-    margin: 0 0 0 44px;
+    margin: 0 50px 0 44px;
+}
+
+.hint{
+    color: red;
+    font-size: 12px;
 }
 
 
 
 .submit{
-    margin: 30px 0 0 100px;
+    margin: 30px 100px 0 100px;
     background-color: black;
     color: white;
     width: 60px;
@@ -131,4 +141,25 @@
     font-size: 16px;
     border-radius: 5px;
 }
+
+.error{
+    display: block;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 234px;
+    color: red;
+    font-size: 14px;
+    line-height: 30px;
+
+}
+
+.left-nav a:hover{
+    color: red;
+}
+
+
+
+
 

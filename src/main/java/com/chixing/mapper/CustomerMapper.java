@@ -30,6 +30,7 @@ public interface CustomerMapper {
     int regist(Customer record);
 
     int insertSelective(Customer record);
+
     //根据用户的id查找所得的信息
     Customer selectByPrimaryKey(Integer custId);
 
@@ -40,13 +41,20 @@ public interface CustomerMapper {
      */
     Customer selectByUserName(String userName);
 
+
+    /**
+     * 选择性的修改用户信息
+     * @param record 用户对象
+     * @return 受影响行数
+     */
     int updateByPrimaryKeySelective(Customer record);
+
+
       /**
       修改用户信息
        @param record 要修改的用户信息
        @return 返回受影响的行数
       */
-
     int updateByPrimaryKey(Customer record);
 
     /**

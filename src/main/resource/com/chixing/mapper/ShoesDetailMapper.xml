@@ -11,8 +11,7 @@
     <result column="status" jdbcType="INTEGER" property="status" />
   </resultMap>
   <sql id="Base_Column_List">
-    shoes_detail_id, shoes_id, shoes_color_id, shoes_size_id, shoes_inventory, shoes_sale_count, 
-    `status`
+    shoes_detail_id, shoes_id, shoes_color_id, shoes_size_id, shoes_inventory, shoes_sale_count,status
   </sql>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select 
@@ -20,6 +19,23 @@
     from shoes_detail
     where shoes_detail_id = #{shoesDetailId,jdbcType=INTEGER}
   </select>
+
+
+
+  <select id="selectBySizeAndColorAndShoesName" parameterType="java.util.Map" resultMap="BaseResultMap">
+    select  shoes_detail_id, sd.shoes_id, sd.shoes_color_id, sd.shoes_size_id, sd.shoes_inventory, sd.shoes_sale_count,status
+    from shoes_detail sd join shoes sh
+    on sd.shoes_id=sh.shoes_id
+    join shoes_size shze
+    on sd.shoes_size_id=shze.shoes_size_id
+    join shoes_color shco
+    on shco.shoes_color_id=sd.shoes_color_id
+    where sh.shoes_name = #{shoesName,jdbcType=INTEGER} and shco.shoes_color_name = #{colorName} and shze.shoes_size=#{shoesSize}
+  </select>
+
+
+
+
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from shoes_detail
     where shoes_detail_id = #{shoesDetailId,jdbcType=INTEGER}

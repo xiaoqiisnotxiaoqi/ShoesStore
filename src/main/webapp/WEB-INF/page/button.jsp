@@ -6,11 +6,12 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page isELIgnored="false" %>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>button</title>
-    <link rel="stylesheet" href="../../css/login.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/login.css">
 
 </head>
 <body>
@@ -19,13 +20,13 @@
     <div class="container-pad">
         <ul>
             <li class="">
-                <a href="#" title="Follow Us on facebook"><img src="../../images/add_F.png" height="44" width="44"/></a>
+                <a href="#" title="Follow Us on facebook"><img src="${pageContext.request.contextPath}/images/add_F.png" height="44" width="44"/></a>
             </li>
             <li class="">
-                <a href="#" title="Follow Us on facebook"> <img src="../../images/add_企鹅.png" height="51" width="54"/></a>
+                <a href="#" title="Follow Us on facebook"> <img src="${pageContext.request.contextPath}/images/add_企鹅.png" height="51" width="54"/></a>
             </li>
             <li class="">
-                <a href="#" title="Follow Us on facebook"> <img src="../../images/add_xxiangji.png" height="48" width="54"/></a>
+                <a href="#" title="Follow Us on facebook"> <img src="${pageContext.request.contextPath}/images/add_xxiangji.png" height="48" width="54"/></a>
             </li>
         </ul>
     </div>
@@ -135,7 +136,7 @@
         <from action="email" method="post">
             <input type="email" placeholder="请输入你的邮箱" name="email">
         </from>
-        <img src="../../images/ios_bg.png" alt="">
+        <img src="${pageContext.request.contextPath}/images/ios_bg.png" alt="">
         <span style="display: block">下载App</span>
         <span style="display: block" class="span1">给我们一个电话</span>
         <span  class="span1">13955415175</span>
@@ -149,7 +150,7 @@
     <span class="bot_right">fiaofukgnwghwn</span>
 </div>
 <div class="bottom_foot">
-    <img src="../../images/bottom.png" alt="">
+    <img src="${pageContext.request.contextPath}/images/bottom.png" alt="">
 
     <p>Cheaney Shoes Ltd Registered office 69 Rushton Road, Desborough, Northants,
         NN14 2RR, Registered in UK</p>

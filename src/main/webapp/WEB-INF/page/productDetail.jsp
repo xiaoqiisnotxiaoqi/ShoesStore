@@ -6,12 +6,27 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page isELIgnored="false" %>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>商品详情页面</title>
-    <link rel="stylesheet" type="text/css" href="../../css/productDetails.css">
-    <script type="text/javascript" src="../../js/productDetails.js"></script>
+    <link rel="stylesheet" type="text/css"  href="${pageContext.request.contextPath}/css/productDetails.css"/>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/productDetails.js"></script>
+    <style>
+        .but1,.but2{
+            border: none;
+            width: 200px;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            margin-left: 20px;
+            margin-top: 40px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+        }
+    </style>
 </head>
 <IFRAME NAME="content_frame" width="100%" height="238px" SRC="top.jsp" ></IFRAME>
 <div class="body">
@@ -25,18 +40,18 @@
         <span>biubiubiu皮鞋</span>
     </div>
     <div id="goods-img">
-        <img src="../../images/img1.jpg">
-        <a href="#"><img src="../../images/arrow-left-small.png"></a>
+        <img src="${pageContext.request.contextPath}/images/img1.jpg">
+        <a href="#"><img src="${pageContext.request.contextPath}/images/arrow-left-small.png"></a>
         <div id="carousel-img">
-            <img src="../../images/img1.jpg">
-            <img src="../../images/img2.jpg">
-            <img src="../../images/img3.jpg">
-            <img src="../../images/img4.jpg">
+            <img src="${pageContext.request.contextPath}/images/img1.jpg" onclick="shoesImg(this)">
+            <img src="${pageContext.request.contextPath}/images/img2.jpg" onclick="shoesImg(this)">
+            <img src="${pageContext.request.contextPath}/images/img3.jpg" onclick="shoesImg(this)">
+            <img src="${pageContext.request.contextPath}/images/img4.jpg" onclick="shoesImg(this)">
             <!--<img src="img/img5.jpg">
             <img src="img/img6.jpg">
             <img src="img/img7.jpg">-->
         </div>
-        <a href="#"><img src="../../images/arrow-left-big.png"></a>
+        <a href="#"><img src="${pageContext.request.contextPath}/images/arrow-left-big.png"></a>
     </div>
     <div id="goods-property">
         <div id="goods-property-message">
@@ -46,34 +61,64 @@
                 <span>英伦</span>
             </div>
             <div id="goods-property-price">
-                <span>biubiubiu中短款皮靴</span>
+                <span>测试鞋1</span>
                 <span>¥  </span><span>899</span>
             </div>
         </div>
         <div id="goods-property-color">
-            <div>
-                <span>黑色[B76046]</span>
-                <img src="../../images/img1.jpg"/>
+            <div onclick="color(this)">
+                <span>红色</span>
+                <img src="${pageContext.request.contextPath}/images/img1.jpg"/>
             </div>
             <div>
                 <span>黑色[B76046]</span>
-                <img src="../../images/img1.jpg"/>
+                <img src="${pageContext.request.contextPath}/images/img1.jpg"/>
             </div>
         </div>
-        <div id="goods-property-size">
-            <span>选择尺码(UK码)</span>
-            <span>选择数量</span>
-            <div>
 
+        <div id="goods-property-size">
+            <span onclick="chooseSize()">选择尺码(UK码)</span>
+            <span onclick="chooseNum()">选择数量</span>
+            <div id="shoes-size" style="visibility:hidden">
+                <ul>
+                    <li onclick = "chooesSizeli(this)">32</li>
+                    <li onclick = "chooesSizeli(this)">33</li>
+                    <li onclick = "chooesSizeli(this)">34</li>
+                    <li onclick = "chooesSizeli(this)">35</li>
+                    <li onclick = "chooesSizeli(this)">36</li>
+                    <li onclick = "chooesSizeli(this)">37</li>
+                    <li onclick = "chooesSizeli(this)">38</li>
+                    <li onclick = "chooesSizeli(this)">39</li>
+                    <li onclick = "chooesSizeli(this)">40</li>
+                    <li onclick = "chooesSizeli(this)">41</li>
+                    <li onclick = "chooesSizeli(this)">42</li>
+                    <li onclick = "chooesSizeli(this)">43</li>
+                </ul>
+            </div>
+            <div id="shoes-num" style="visibility:hidden">
+                <ul>
+                    <li onclick = "byNum(this)">1</li>
+                    <li onclick = "byNum(this)">2</li>
+                    <li onclick = "byNum(this)">3</li>
+                    <li onclick = "byNum(this)">4</li>
+                </ul>
             </div>
         </div>
-        <button class="but1">立即购买</button>
-        <button class="but2">加入购物袋</button>
+        <form action="" method="post" id="frombiaodan">
+            <input type="hidden" name="hidden_size" id="hidden_size" value="">
+            <input type="hidden" name="hidden_num" id="hidden_num" value="">
+            <input type="hidden" name="hidden_name" id="hidden_name" value="">
+            <input type="hidden" name="hidden_color" id="hidden_color" value="">
+            <input type="submit" class="but1" onclick="buyNow()" value="立即购买">
+            <input type="submit" class="but2" onclick="addCart()" value="加入购物袋">
+      </form>
         <div class="serve">
             <a href="#">该商品免运费</a>
             <a href="#">联系客服</a>
         </div>
+
     </div>
+
     <div id="evaluate">
         <div>
             <p>biubiubiu中短款皮靴</p>
@@ -88,22 +133,22 @@
     <div id="maybe-like">
         <p>猜你喜欢</p>
         <div>
-            <img src="../../images/img1.jpg">
+            <img src="${pageContext.request.contextPath}/images/img1.jpg">
             <a href="#">biubiubiu中短款皮靴</a>
             <p>￥899</p>
         </div>
         <div>
-            <img src="../../images/img1.jpg">
+            <img src="${pageContext.request.contextPath}/images/img1.jpg">
             <a href="#">biubiubiu中短款皮靴</a>
             <p>￥899</p>
         </div>
         <div>
-            <img src="../../images/img1.jpg">
+            <img src="${pageContext.request.contextPath}/images/img1.jpg">
             <a href="#">biubiubiu中短款皮靴</a>
             <p>￥899</p>
         </div>
         <div>
-            <img src="../../images/img1.jpg">
+            <img src="${pageContext.request.contextPath}/images/img1.jpg">
             <a href="#">biubiubiu中短款皮靴</a>
             <p>￥899</p>
         </div>

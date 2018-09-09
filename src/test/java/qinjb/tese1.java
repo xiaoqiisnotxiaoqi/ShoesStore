@@ -1,18 +1,14 @@
 package qinjb;
 
+import com.chixing.mapper.*;
+import com.chixing.pojo.*;
 import com.chixing.util.MybatisUtil;
-import com.chixing.mapper.CustomerMapper;
-import com.chixing.mapper.MyOrderMapper;
-import com.chixing.mapper.OrderDetailMapper;
-import com.chixing.mapper.ShoesColorMapper;
-import com.chixing.pojo.Customer;
-import com.chixing.pojo.MyOrder;
-import com.chixing.pojo.OrderDetail;
-import com.chixing.pojo.ShoesColor;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @SuppressWarnings("all")
 public class tese1 {
@@ -87,6 +83,31 @@ public class tese1 {
         sqlSession.commit();
         sqlSession.close();
     }
+
+    @Test
+    public void updateByPrimaryKeySelective(){
+        SqlSession sqlSession = MybatisUtil.getSession();
+        CustomerMapper mapper =  sqlSession.getMapper(CustomerMapper.class);
+        Customer customer = new Customer(123,"qinjianbao",null,18,null,null,null,null,null);
+        int a =  mapper.updateByPrimaryKeySelective(customer);
+        sqlSession.commit();
+        sqlSession.close();
+    }
+
+
+    @Test
+    public void selectbycolor(){
+        SqlSession sqlSession = MybatisUtil.getSession();
+        ShoesDetailMapper mapper =  sqlSession.getMapper(ShoesDetailMapper.class);
+        Map<String,Object> map = new HashMap<>();
+        map.put("colorName","红色");
+        map.put("shoesName","测试鞋1");
+        map.put("shoesSize",36);
+        ShoesDetail shoesDetail =  mapper.selectBySizeAndColorAndShoesName(map);
+        sqlSession.commit();
+        sqlSession.close();
+    }
+
 
 
 }

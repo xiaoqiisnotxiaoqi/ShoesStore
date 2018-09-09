@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+IFRAME{
+    border: none;
+}
+
+#left-nav{
+    width:200px;
+    height: 400px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    margin: 38px 0 0 88px;
+    border: 1px solid;
+}
+
+#left-nav>span{
+    display: block;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.nav-title{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.nav-title li{
+    font-weight: normal;
+    text-align: center;
+}
+
+#left-nav>ul{
+    width: 200px;
+    height: 360px;
+    float: right;
+}
+
+#left-nav>ul>li{
+    width: 200px;
+    height: 120px;
+    border-top: 1px solid;
+}
+
+#left-nav li{
+    list-style-type: none;
+}
+
+.nav-title ul{
+    width: 200px;
+    height: 80px;
+    border-top: 1px solid;
+}
+
+.nav-title{
+    font-size: 16px;
+}
+
+.nav-title>ul li{
+
+}
+
+.nav-title>ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#all_orders{
+    width: 850px;
+    height: 1000px;
+    float: left;
+    margin: 38px 0 0 20px;
+}
+
+#orders_title{
+    width: 850px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #f1f1f1;
+}
+
+#orders_title span{
+    display: block;
+    float: left;
+    height: 40px;
+    text-align: center;
+}
+
+#orders_title span:nth-child(1){
+    width: 300px;
+}
+
+#orders_title span:nth-child(2),span:nth-child(3),span:nth-child(4){
+    width: 100px;
+}
+
+#orders_title span:nth-child(5){
+    width: 250px;
+}
+
+.orders_details{
+    width: 850px;
+    height: 170px;
+    margin-top: 20px;
+    border: 1px solid gainsboro;
+}
+
+.order_num{
+    width: 850px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.order_num span:nth-child(1){
+    display: block;
+    width: 150px;
+    height: 30px;
+    float: left;
+    font-weight: bold;
+}
+
+.order_num span:nth-child(2){
+    display: block;
+    width: 250px;
+    height: 30px;
+    float: left;
+}
+
+.product{
+    height: 140px;
+    width: 850px;
+    position: absolute;
+}
+
+
+.product-details{
+    width: 300px;
+    height: 120px;
+    position: absolute;
+}
+
+.product-details img{
+    width: 130px;
+    height: 130px;
+}
+
+.product-details a{
+    text-decoration: none;
+    color: black;
+}
+
+.product-details span:nth-child(2){
+    display: block;
+    width: 160px;
+    height: 60px;
+    line-height: 30px;
+    font-size: 14px;
+    position: absolute;
+    left: 140px;
+    top: 0;
+}
+
+.product-details span:nth-child(3){
+    display: block;
+    width: 45px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    position: absolute;
+    left: 140px;
+    top: 60px;
+}
+
+.product-details span:nth-child(4){
+    display: block;
+    width: 25px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    position: absolute;
+    left: 185px;
+    top: 60px;
+}
+
+.product-details span:nth-child(5){
+    display: block;
+    width: 45px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    position: absolute;
+    left: 210px;
+    top: 60px;
+}
+
+.product-details span:nth-child(6){
+    display: block;
+    width: 45px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    position: absolute;
+    left: 250px;
+    top: 60px;
+}
+
+.price{
+    display: block;
+    width: 100px;
+    height: 140px;
+    text-align: center;
+    line-height: 140px;
+    font-size: 16px;
+    position: absolute;
+    left: 300px;
+}
+
+.pro_num{
+    display: block;
+    width: 100px;
+    height: 140px;
+    text-align: center;
+    line-height: 140px;
+    font-size: 16px;
+    position: absolute;
+    left: 400px;
+}
+
+.all_num{
+    display: block;
+    width: 100px;
+    height: 140px;
+    text-align: center;
+    line-height: 140px;
+    font-size: 16px;
+    position: absolute;
+    left: 500px;
+}
+
+.operation{
+    width: 250px;
+    height: 140px;
+    position: absolute;
+    left: 600px;
+}
+
+.operation span{
+    display: block;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+}
+
+.operation span:nth-child(1){
+    top: 40px;
+}
+
+.operation span:nth-child(2){
+    top: 70px;
+}
+
+.operation a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.page{
+    width: 680px;
+    height: 60px;
+    margin: 40px auto 0;
+}
+
+.page ul{
+    list-style-type: none;
+}
+
+.page a{
+    text-decoration: none;
+    color: #2953a6;
+}
+
+.page li{
+    float: left;
+}
+
+.page li a div{
+    width: 28px;
+    height: 38px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    line-height: 38px;
+}
+
+.page li:nth-child(1) a div,.page li:nth-child(6) a div{
+    width: 86px;
+}
+
+.page li:nth-child(7) a div{
+    width: 52px;
+}
+
+.page li:nth-child(1) a div,.page li:nth-child(2) a div{
+    background-color: #efefef;
+    color: #999999;
+}
+
+.skip{
+    float: left;
+    width: 260px;
+    height: 32px;
+    line-height: 38px;
+    margin-left: 32px;
+}
+
+.skip input:nth-child(2){
+    width: 20px;
+    height: 20px;
+}

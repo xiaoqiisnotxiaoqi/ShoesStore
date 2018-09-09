@@ -6,11 +6,12 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page isELIgnored="false" %>
 <html>
 <head>
     <title>注册</title>
-    <link rel="stylesheet" href="../../css/register.css">
-    <script src="../../js/register.js"></script>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/register.css">
+    <script src="${pageContext.request.contextPath}/js/register.js"></script>
 
 </head>
 <body>
@@ -33,7 +34,7 @@
             <!--logo-->
             <li class="threebox">
                 <div id="logobox">
-                    <img id="logopic" src="../../images/1530088490-44294000.png"/>
+                    <img id="logopic" src="${pageContext.request.contextPath}/images/1530088490-44294000.png"/>
                 </div>
             </li>
 
@@ -41,12 +42,12 @@
             <li class="threebox">
                 <div id="right-nav-box">
                     <div class="inner-right-box">
-                        <div class="naviconbox"><img src="../../images/TIM截图20180902130757.png" height="32" width="32"/>
+                        <div class="naviconbox"><img src="${pageContext.request.contextPath}/images/TIM截图20180902130757.png" height="32" width="32"/>
                         </div>
                         <a class="rightnav-font" href=" ">账户</a>
                     </div>
                     <div class="inner-right-box">
-                        <div class="naviconbox"><img src="../../images/TIM截图20180902130836.png" height="32" width="33"/>
+                        <div class="naviconbox"><img src="${pageContext.request.contextPath}/images/TIM截图20180902130836.png" height="32" width="33"/>
                         </div>
                         <a class="rightnav-font" href=" ">购物车</a>
                     </div>
@@ -153,11 +154,11 @@
                     <li></li>
                     <li>成为adiCLUB会员并完善个人信息，即可享受更多权益 ：</li>
                     <br>
-                    <li><img class="right-icon" src="../../images/对号.png"/> 安全快捷支付订单</li>
-                    <li><img class="right-icon" src="../../images/对号.png"/> 随时跟踪订单状态</li>
-                    <li><img class="right-icon" src="../../images/对号.png"/> 即时收到打折优惠及新品发布信息</li>
-                    <li><img class="right-icon" src="../../images/对号.png"/> 全场免普通达运费和七天无理由退换货服务</li>
-                    <li><img class="right-icon" src="../../images/对号.png"/> 消费即可获得积分，铜牌以上会员即可积分兑换优惠券</li>
+                    <li><img class="right-icon" src="${pageContext.request.contextPath}/images/对号.png"/> 安全快捷支付订单</li>
+                    <li><img class="right-icon" src="${pageContext.request.contextPath}/images/对号.png"/> 随时跟踪订单状态</li>
+                    <li><img class="right-icon" src="${pageContext.request.contextPath}/images/对号.png"/> 即时收到打折优惠及新品发布信息</li>
+                    <li><img class="right-icon" src="${pageContext.request.contextPath}/images/对号.png"/> 全场免普通达运费和七天无理由退换货服务</li>
+                    <li><img class="right-icon" src="${pageContext.request.contextPath}/images/对号.png"/> 消费即可获得积分，铜牌以上会员即可积分兑换优惠券</li>
                 </ul>
             </div>
         </div>
@@ -273,7 +274,7 @@
         <p>注册我们的电子邮件通讯，首先要了解特别优惠，
             新品上市等等！您可以随时取消订阅。</p>
         <input type="email" placeholder="请输入你的邮箱">
-        <img src="../../images/ios_bg.png" alt="">
+        <img src="${pageContext.request.contextPath}/images/ios_bg.png" alt="">
         <span style="display: block">下载App</span>
         <span style="display: block" class="span1">给我们一个电话</span>
         <span class="span1">13955415175</span>
@@ -287,7 +288,7 @@
     <span class="bot_right">fiaofukgnwghwn</span>
 </div>
 <div class="bottom_foot">
-    <img src="../../images/bottom.png" alt="">
+    <img src="${pageContext.request.contextPath}/images/bottom.png" alt="">
     <p>Cheaney Shoes Ltd Registered office 69 Rushton Road, Desborough, Northants,
         NN14 2RR, Registered in UK</p>
     <p> Company Registration Number 6905848 VAT no. 975670866</p>

@@ -42,12 +42,60 @@
 
     <!--用户中心-->
     <servlet>
-        <servlet-name>customerCenterUIServlet</servlet-name>
-        <servlet-class>com.chixing.ui.CustomerCenterUIServlet</servlet-class>
+        <servlet-name>UpdatePersonalInformationServlet</servlet-name>
+        <servlet-class>com.chixing.ui.UpdatePersonalInformationServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>customerCenterUIServlet</servlet-name>
+        <servlet-name>UpdatePersonalInformationServlet</servlet-name>
         <url-pattern>/customerCenter</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <!--课堂练习-->
+    <servlet>
+        <servlet-name>LastLoginTimeServlet</servlet-name>
+        <servlet-class>com.chixing.ui.LastLoginTimeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LastLoginTimeServlet</servlet-name>
+        <url-pattern>/last</url-pattern>
+    </servlet-mapping>
+
+    <!--所有订单-->
+    <servlet>
+        <servlet-name>AllOrdersUIServlet</servlet-name>
+        <servlet-class>com.chixing.ui.AllOrdersUIServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AllOrdersUIServlet</servlet-name>
+        <url-pattern>/allorsers</url-pattern>
+    </servlet-mapping>
+
+
+   <!-- 用户中心修改资料提交表单-->
+    <servlet>
+        <servlet-name>UpdatePersonalInformationServlet1</servlet-name>
+        <servlet-class>com.chixing.controller.UpdatePersonalInformationServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdatePersonalInformationServlet1</servlet-name>
+        <url-pattern>/UpdatePersonalInformationServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- 立即购买-->
+    <servlet>
+        <servlet-name>BuyNowServlet</servlet-name>
+        <servlet-class>com.chixing.controller.BuyNowServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>BuyNowServlet</servlet-name>
+        <url-pattern>/buyNow</url-pattern>
     </servlet-mapping>
 </web-app>

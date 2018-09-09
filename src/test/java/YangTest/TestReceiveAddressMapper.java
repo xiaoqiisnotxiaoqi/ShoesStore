@@ -69,7 +69,7 @@ public class TestReceiveAddressMapper {
 
 
     @Test
-    public void queryAll(){
+    public void queryAll(){ //test
         SqlSession sqlSession = MybatisUtil.getSession();
         ReceiveAddressMapper mapper =  sqlSession.getMapper(ReceiveAddressMapper.class);
         List<ReceiveAddress> receiveAddresses = ( List<ReceiveAddress>)  mapper.queryAll(123);

@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page isELIgnored="false" %>
+<%@ taglib  uri="http://java.sun.com/jsp/jstl/core"  prefix="c"%>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -29,51 +30,52 @@
     </style>
 </head>
 <IFRAME NAME="content_frame" width="100%" height="238px" SRC="top.jsp" ></IFRAME>
+<%--
+        商品详情页，要得到商品的
+        分类
+        图片
+        大小
+        颜色
+--%>
 <div class="body">
     <div id="goods-category">
-        <a href="#">男子</a>
+        <a href="#">${gender}</a>
         <span>></span>
-        <a href="#">时尚</a>
+        <a href="#">${categoryName}</a>
+        <span></span>
+        <a href="#"></a>
         <span>></span>
-        <a href="#">英伦</a>
-        <span>></span>
-        <span>biubiubiu皮鞋</span>
+        <span>${shoesName}</span>
     </div>
     <div id="goods-img">
-        <img src="${pageContext.request.contextPath}/images/img1.jpg">
+        <img src="${pageContext.request.contextPath}/${fistImg}">
         <a href="#"><img src="${pageContext.request.contextPath}/images/arrow-left-small.png"></a>
         <div id="carousel-img">
-            <img src="${pageContext.request.contextPath}/images/img1.jpg" onclick="shoesImg(this)">
-            <img src="${pageContext.request.contextPath}/images/img2.jpg" onclick="shoesImg(this)">
-            <img src="${pageContext.request.contextPath}/images/img3.jpg" onclick="shoesImg(this)">
-            <img src="${pageContext.request.contextPath}/images/img4.jpg" onclick="shoesImg(this)">
-            <!--<img src="img/img5.jpg">
-            <img src="img/img6.jpg">
-            <img src="img/img7.jpg">-->
+            <c:forEach var="shoesImg" items="${shoesImgs}">
+                <img src="${pageContext.request.contextPath}/${shoesImg.imgPath}" onclick="shoesImg(this)">
+            </c:forEach>
         </div>
         <a href="#"><img src="${pageContext.request.contextPath}/images/arrow-left-big.png"></a>
     </div>
     <div id="goods-property">
         <div id="goods-property-message">
             <div id="goods-property-sort">
-                <span>男子</span>
-                <span>时尚</span>
-                <span>英伦</span>
+                <span>${gender}</span>
+                <span>${categoryName}</span>
+                <span></span>
             </div>
             <div id="goods-property-price">
-                <span>测试鞋1</span>
-                <span>¥  </span><span>899</span>
+                <span>${shoesName}</span>
+                <span>¥  </span><span>${shoesPrice}</span>
             </div>
         </div>
         <div id="goods-property-color">
-            <div onclick="color(this)">
-                <span>红色</span>
-                <img src="${pageContext.request.contextPath}/images/img1.jpg"/>
-            </div>
-            <div>
-                <span>黑色[B76046]</span>
-                <img src="${pageContext.request.contextPath}/images/img1.jpg"/>
-            </div>
+            <c:forEach var="color" items="${shoesColors}">
+                <div onclick="color(this)">
+                    <span>${color.shoesColorName}</span>
+                    <img src="${pageContext.request.contextPath}/${fistImg}"/>
+                </div>
+            </c:forEach>
         </div>
 
         <div id="goods-property-size">
@@ -81,18 +83,9 @@
             <span onclick="chooseNum()">选择数量</span>
             <div id="shoes-size" style="visibility:hidden">
                 <ul>
-                    <li onclick = "chooesSizeli(this)">32</li>
-                    <li onclick = "chooesSizeli(this)">33</li>
-                    <li onclick = "chooesSizeli(this)">34</li>
-                    <li onclick = "chooesSizeli(this)">35</li>
-                    <li onclick = "chooesSizeli(this)">36</li>
-                    <li onclick = "chooesSizeli(this)">37</li>
-                    <li onclick = "chooesSizeli(this)">38</li>
-                    <li onclick = "chooesSizeli(this)">39</li>
-                    <li onclick = "chooesSizeli(this)">40</li>
-                    <li onclick = "chooesSizeli(this)">41</li>
-                    <li onclick = "chooesSizeli(this)">42</li>
-                    <li onclick = "chooesSizeli(this)">43</li>
+                    <c:forEach var="size" items="${shoesSizes}">
+                       <li onclick = "chooesSizeli(this)">${size.shoesSize}</li>
+                    </c:forEach>
                 </ul>
             </div>
             <div id="shoes-num" style="visibility:hidden">

@@ -1,6 +1,7 @@
 package com.chixing.pojo;
 
 import java.io.Serializable;
+import java.util.Objects;
 
 /**
  * shoes_img
@@ -11,6 +12,8 @@ public class ShoesImg implements Serializable {
 
     private Integer shoesId;
 
+    private Integer shoesColorId;
+
     private String imgPath;
 
     private Integer sortNo;
@@ -20,11 +23,20 @@ public class ShoesImg implements Serializable {
     public ShoesImg() {
     }
 
-    public ShoesImg(Integer imgId, Integer shoesId, String imgPath, Integer sortNo) {
+    public ShoesImg(Integer imgId, Integer shoesId, Integer shoesColorId, String imgPath, Integer sortNo) {
         this.imgId = imgId;
         this.shoesId = shoesId;
+        this.shoesColorId = shoesColorId;
         this.imgPath = imgPath;
         this.sortNo = sortNo;
+    }
+
+    public Integer getShoesColorId() {
+        return shoesColorId;
+    }
+
+    public void setShoesColorId(Integer shoesColorId) {
+        this.shoesColorId = shoesColorId;
     }
 
     public Integer getImgId() {
@@ -60,46 +72,37 @@ public class ShoesImg implements Serializable {
     }
 
     @Override
-    public boolean equals(Object that) {
-        if (this == that) {
-            return true;
-        }
-        if (that == null) {
-            return false;
-        }
-        if (getClass() != that.getClass()) {
-            return false;
-        }
-        ShoesImg other = (ShoesImg) that;
-        return (this.getImgId() == null ? other.getImgId() == null : this.getImgId().equals(other.getImgId()))
-            && (this.getShoesId() == null ? other.getShoesId() == null : this.getShoesId().equals(other.getShoesId()))
-            && (this.getImgPath() == null ? other.getImgPath() == null : this.getImgPath().equals(other.getImgPath()))
-            && (this.getSortNo() == null ? other.getSortNo() == null : this.getSortNo().equals(other.getSortNo()));
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ShoesImg shoesImg = (ShoesImg) o;
+        return Objects.equals(imgId, shoesImg.imgId) &&
+                Objects.equals(shoesId, shoesImg.shoesId) &&
+                Objects.equals(shoesColorId, shoesImg.shoesColorId) &&
+                Objects.equals(imgPath, shoesImg.imgPath) &&
+                Objects.equals(sortNo, shoesImg.sortNo);
     }
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + ((getImgId() == null) ? 0 : getImgId().hashCode());
-        result = prime * result + ((getShoesId() == null) ? 0 : getShoesId().hashCode());
-        result = prime * result + ((getImgPath() == null) ? 0 : getImgPath().hashCode());
-        result = prime * result + ((getSortNo() == null) ? 0 : getSortNo().hashCode());
-        return result;
+
+        return Objects.hash(imgId, shoesId, shoesColorId, imgPath, sortNo);
     }
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append(" [");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", imgId=").append(imgId);
-        sb.append(", shoesId=").append(shoesId);
-        sb.append(", imgPath=").append(imgPath);
-        sb.append(", sortNo=").append(sortNo);
-        sb.append(", serialVersionUID=").append(serialVersionUID);
-        sb.append("]");
+        final StringBuilder sb = new StringBuilder("{");
+        sb.append("\"imgId\":")
+                .append(imgId);
+        sb.append(",\"shoesId\":")
+                .append(shoesId);
+        sb.append(",\"shoesColorId\":")
+                .append(shoesColorId);
+        sb.append(",\"imgPath\":\"")
+                .append(imgPath).append('\"');
+        sb.append(",\"sortNo\":")
+                .append(sortNo);
+        sb.append('}');
         return sb.toString();
     }
 }

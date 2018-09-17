@@ -9,7 +9,6 @@ var shoesName = null;
 
 
 function chooseSize(){
-
     if(shoesSize) {
         document.getElementById("shoes-size").style.visibility = "visible";
         shoesSize = false;

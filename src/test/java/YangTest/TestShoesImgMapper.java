@@ -20,7 +20,7 @@ import java.util.List;
  */
 public class TestShoesImgMapper {
 
-    ShoesImg shoesImg=new ShoesImg(1001,10001,"ddddd",1001);
+    ShoesImg shoesImg=new ShoesImg(1001,10001,10001,"ddddd",1001);
 
     @Test
     public void deleteByPrimaryKey(){

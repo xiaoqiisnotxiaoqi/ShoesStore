@@ -4,6 +4,7 @@ package com.chixing.mapper;
 import com.chixing.pojo.ShoesImg;
 
 import java.util.List;
+import java.util.Map;
 
 public interface ShoesImgMapper {
     int deleteByPrimaryKey(Integer imgId);
@@ -23,4 +24,7 @@ public interface ShoesImgMapper {
      @return 返回指定鞋子的所有图片
      */
     public List<ShoesImg> queryAllImgByShooesId(Integer shooesId);
+
+
+    List<ShoesImg> selectAllImgByShoesIdAndColorId(Map<String,Integer> map);
 }

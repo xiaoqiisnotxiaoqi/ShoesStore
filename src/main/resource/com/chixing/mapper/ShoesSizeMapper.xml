@@ -11,10 +11,10 @@
   </sql>
   <select id="queryAllSizeByShoesId" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select
-    ss.shoes_size
+    ss.shoes_size_id, ss.shoes_size, ss.shoes_state
     from shoes_detail sd join shoes_size ss
     on sd.shoes_size_id = ss.shoes_size_id
-    where sd.shoes_size_id = #{shoesId,jdbcType=INTEGER}
+    where sd.shoes_id = #{shoesId,jdbcType=INTEGER}
   </select>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select 

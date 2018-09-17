@@ -6,6 +6,7 @@ import com.chixing.util.MybatisUtil;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -109,5 +110,26 @@ public class tese1 {
     }
 
 
+    @Test
+    public void select(){
+        SqlSession sqlSession = MybatisUtil.getSession();
+        ShoesSizeMapper mapper =  sqlSession.getMapper(ShoesSizeMapper.class);
+        List<ShoesSize> shoesDetail =  mapper.queryAllSizeByShoesId(10001);
+        System.out.println(shoesDetail);
+        sqlSession.commit();
+        sqlSession.close();
+    }
 
+    @Test
+    public void color(){
+        SqlSession sqlSession = MybatisUtil.getSession();
+        ShoesImgMapper mapper = sqlSession.getMapper(ShoesImgMapper.class);
+        Map<String,Integer> map = new HashMap<>();
+        map.put("shoesId",10001);
+        map.put("colorId",1);
+        List<ShoesImg> shoesImgs = mapper.selectAllImgByShoesIdAndColorId(map);
+        sqlSession.commit();
+        sqlSession.close();
+        System.out.println(shoesImgs);
+    }
 }

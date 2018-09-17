@@ -26,7 +26,7 @@ public class BuyNowServlet extends HttpServlet {
         ShoesDetail shoesDetail = new BuyNowServiceImpl().selectShoes(shoesName,colorName,shoesSize);
         //创建订单
         if(shoesDetail!=null) {
-            int a = new BuyNowServiceImpl().establishOrder(shoesDetail, colorName, shoesNum, shoesSize);
+            new BuyNowServiceImpl().establishOrder(shoesDetail, colorName, shoesNum, shoesSize);
         }
 
     }
